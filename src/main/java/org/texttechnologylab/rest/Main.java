@@ -1,4 +1,4 @@
-package org.hucompute.rest;
+package org.texttechnologylab.rest;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 
 import java.io.PrintWriter;
