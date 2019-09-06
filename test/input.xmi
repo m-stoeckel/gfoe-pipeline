@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:type13="http:///org/hucompute/textimager/uima/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:type18="http:///org/texttechnologielab/annotation/attribution/type.ecore" xmlns:designer="http:///org/texttechnologylab/designer.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:annotation2="http:///org/texttechnologielab/annotation.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:heideltime="http:///de/unihd/dbs/uima/types/heideltime.ecore" xmlns:type14="http:///org/texttechnologielab/annotation/type.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type17="http:///org/texttechnologylab/annotation/context/type.ecore" xmlns:typo="http:///org/texttechnologylab/annotation/typo.ecore" xmlns:type12="http:///org/hucompute/services/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:type16="http:///org/texttechnologylab/annotation/type.ecore" xmlns:administration="http:///org/texttechnologylab/annotation/administration.ecore" xmlns:type15="http:///org/texttechnologylab/annotation/node/type.ecore" xmlns:knowledge="http:///org/texttechnologylab/annotation/knowledge.ecore" xmlns:wikidata="http:///org/hucompute/textimager/uima/type/wikidata.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:wikipedia="http:///org/hucompute/textimager/uima/type/wikipedia.ecore" xmlns:annotation="http:///org/texttechnologylab/annotation.ecore" xmlns:type20="http:///org/texttechnologielab/annotation/temporal/type.ecore" xmlns:category="http:///org/hucompute/textimager/uima/type/category.ecore" xmlns:type19="http:///org/texttechnologielab/annotation/orientation/type.ecore" xmlns:iaa="http:///org/texttechnologylab/iaa.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/core/api/transform/type.ecore" xmlns:sentence="http:///org/texttechnologylab/annotation/sentence.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:segmentation="http:///org/hucompute/textimager/uima/type/segmentation.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:ocr="http:///org/texttechnologylab/annotation/ocr.ecore" xmlns:type11="http:///de/tudarmstadt/ukp/dkpro/core/io/jwpl/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:concept="http:///org/texttechnologylab/annotation/type/concept.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:Room="http:///org/texttechnologylab/annotation/Room.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <type4:DocumentMetaData xmi:id="13" sofa="1" begin="0" end="589" language="de" documentId="input" isLastSegment="false"/>
+    <type6:Sentence xmi:id="24" sofa="1" begin="0" end="106"/>
+    <type6:Sentence xmi:id="1215" sofa="1" begin="0" end="106"/>
+    <type6:Sentence xmi:id="245" sofa="1" begin="107" end="191"/>
+    <type6:Sentence xmi:id="1220" sofa="1" begin="107" end="191"/>
+    <type6:Sentence xmi:id="418" sofa="1" begin="192" end="589"/>
+    <type6:Sentence xmi:id="1225" sofa="1" begin="192" end="589"/>
+    <type6:Token xmi:id="29" sofa="1" begin="0" end="6" lemma="2676" pos="1518"/>
+    <type6:Token xmi:id="41" sofa="1" begin="7" end="12" lemma="2681" pos="1524"/>
+    <type6:Token xmi:id="53" sofa="1" begin="13" end="15" lemma="2686" pos="1530"/>
+    <type6:Token xmi:id="65" sofa="1" begin="16" end="19" lemma="2691" pos="1536"/>
+    <type6:Token xmi:id="77" sofa="1" begin="20" end="23" lemma="2696" pos="1542"/>
+    <type6:Token xmi:id="89" sofa="1" begin="24" end="27" lemma="2701" pos="1548"/>
+    <type6:Token xmi:id="101" sofa="1" begin="28" end="31" lemma="2706" pos="1554"/>
+    <type6:Token xmi:id="113" sofa="1" begin="32" end="35" lemma="2711" pos="1560"/>
+    <type6:Token xmi:id="125" sofa="1" begin="36" end="40" lemma="2716" pos="1566"/>
+    <type6:Token xmi:id="137" sofa="1" begin="41" end="44" lemma="2721" pos="1572"/>
+    <type6:Token xmi:id="149" sofa="1" begin="45" end="55" lemma="2726" pos="1578"/>
+    <type6:Token xmi:id="161" sofa="1" begin="56" end="58" lemma="2731" pos="1584"/>
+    <type6:Token xmi:id="173" sofa="1" begin="59" end="74" lemma="2736" pos="1590"/>
+    <type6:Token xmi:id="185" sofa="1" begin="75" end="78" lemma="2741" pos="1596"/>
+    <type6:Token xmi:id="197" sofa="1" begin="79" end="92" lemma="2746" pos="1602"/>
+    <type6:Token xmi:id="209" sofa="1" begin="93" end="99" lemma="2751" pos="1608"/>
+    <type6:Token xmi:id="221" sofa="1" begin="100" end="105" lemma="2756" pos="1614"/>
+    <type6:Token xmi:id="233" sofa="1" begin="105" end="106" lemma="2761" pos="1620"/>
+    <type6:Token xmi:id="250" sofa="1" begin="107" end="110" lemma="2836" pos="1710"/>
+    <type6:Token xmi:id="262" sofa="1" begin="111" end="114" lemma="2841" pos="1716"/>
+    <type6:Token xmi:id="274" sofa="1" begin="115" end="129" lemma="2846" pos="1722"/>
+    <type6:Token xmi:id="286" sofa="1" begin="130" end="132" lemma="2851" pos="1728"/>
+    <type6:Token xmi:id="298" sofa="1" begin="133" end="134" lemma="2856" pos="1734"/>
+    <type6:Token xmi:id="310" sofa="1" begin="134" end="135" lemma="2861" pos="1740"/>
+    <type6:Token xmi:id="322" sofa="1" begin="136" end="144" lemma="2866" pos="1746"/>
+    <type6:Token xmi:id="334" sofa="1" begin="145" end="149" lemma="2871" pos="1752"/>
+    <type6:Token xmi:id="346" sofa="1" begin="150" end="156" lemma="2876" pos="1758"/>
+    <type6:Token xmi:id="358" sofa="1" begin="157" end="160" lemma="2881" pos="1764"/>
+    <type6:Token xmi:id="370" sofa="1" begin="161" end="169" lemma="2886" pos="1770"/>
+    <type6:Token xmi:id="382" sofa="1" begin="170" end="173" lemma="2891" pos="1776"/>
+    <type6:Token xmi:id="394" sofa="1" begin="174" end="190" lemma="2896" pos="1782"/>
+    <type6:Token xmi:id="406" sofa="1" begin="190" end="191" lemma="2901" pos="1788"/>
+    <type6:Token xmi:id="423" sofa="1" begin="192" end="195" lemma="3236" pos="2190"/>
+    <type6:Token xmi:id="435" sofa="1" begin="196" end="199" lemma="3241" pos="2196"/>
+    <type6:Token xmi:id="447" sofa="1" begin="200" end="209" lemma="3246" pos="2202"/>
+    <type6:Token xmi:id="459" sofa="1" begin="210" end="216" lemma="3251" pos="2208"/>
+    <type6:Token xmi:id="471" sofa="1" begin="217" end="233" lemma="3256" pos="2214"/>
+    <type6:Token xmi:id="483" sofa="1" begin="234" end="239" lemma="3261" pos="2220"/>
+    <type6:Token xmi:id="495" sofa="1" begin="240" end="243" lemma="3266" pos="2226"/>
+    <type6:Token xmi:id="507" sofa="1" begin="244" end="246" lemma="3271" pos="2232"/>
+    <type6:Token xmi:id="519" sofa="1" begin="247" end="252" lemma="3276" pos="2238"/>
+    <type6:Token xmi:id="531" sofa="1" begin="253" end="262" lemma="3281" pos="2244"/>
+    <type6:Token xmi:id="543" sofa="1" begin="263" end="265" lemma="3286" pos="2250"/>
+    <type6:Token xmi:id="555" sofa="1" begin="266" end="276" lemma="3291" pos="2256"/>
+    <type6:Token xmi:id="567" sofa="1" begin="277" end="283" lemma="3296" pos="2262"/>
+    <type6:Token xmi:id="579" sofa="1" begin="284" end="291" lemma="3301" pos="2268"/>
+    <type6:Token xmi:id="591" sofa="1" begin="291" end="292" lemma="3306" pos="2274"/>
+    <type6:Token xmi:id="603" sofa="1" begin="292" end="293" lemma="3311" pos="2280"/>
+    <type6:Token xmi:id="615" sofa="1" begin="293" end="294" lemma="3316" pos="2286"/>
+    <type6:Token xmi:id="627" sofa="1" begin="294" end="295" lemma="3321" pos="2292"/>
+    <type6:Token xmi:id="639" sofa="1" begin="296" end="299" lemma="3326" pos="2298"/>
+    <type6:Token xmi:id="651" sofa="1" begin="300" end="304" lemma="3331" pos="2304"/>
+    <type6:Token xmi:id="663" sofa="1" begin="305" end="308" lemma="3336" pos="2310"/>
+    <type6:Token xmi:id="675" sofa="1" begin="309" end="313" lemma="3341" pos="2316"/>
+    <type6:Token xmi:id="687" sofa="1" begin="314" end="317" lemma="3346" pos="2322"/>
+    <type6:Token xmi:id="699" sofa="1" begin="318" end="324" lemma="3351" pos="2328"/>
+    <type6:Token xmi:id="711" sofa="1" begin="325" end="341" lemma="3356" pos="2334"/>
+    <type6:Token xmi:id="723" sofa="1" begin="342" end="345" lemma="3361" pos="2340"/>
+    <type6:Token xmi:id="735" sofa="1" begin="346" end="352" lemma="3366" pos="2346"/>
+    <type6:Token xmi:id="747" sofa="1" begin="353" end="356" lemma="3371" pos="2352"/>
+    <type6:Token xmi:id="759" sofa="1" begin="357" end="363" lemma="3376" pos="2358"/>
+    <type6:Token xmi:id="771" sofa="1" begin="364" end="366" lemma="3381" pos="2364"/>
+    <type6:Token xmi:id="783" sofa="1" begin="367" end="375" lemma="3386" pos="2370"/>
+    <type6:Token xmi:id="795" sofa="1" begin="376" end="380" lemma="3391" pos="2376"/>
+    <type6:Token xmi:id="807" sofa="1" begin="381" end="383" lemma="3396" pos="2382"/>
+    <type6:Token xmi:id="819" sofa="1" begin="384" end="387" lemma="3401" pos="2388"/>
+    <type6:Token xmi:id="831" sofa="1" begin="388" end="391" lemma="3406" pos="2394"/>
+    <type6:Token xmi:id="843" sofa="1" begin="392" end="396" lemma="3411" pos="2400"/>
+    <type6:Token xmi:id="855" sofa="1" begin="397" end="400" lemma="3416" pos="2406"/>
+    <type6:Token xmi:id="867" sofa="1" begin="401" end="405" lemma="3421" pos="2412"/>
+    <type6:Token xmi:id="879" sofa="1" begin="406" end="422" lemma="3426" pos="2418"/>
+    <type6:Token xmi:id="891" sofa="1" begin="423" end="426" lemma="3431" pos="2424"/>
+    <type6:Token xmi:id="903" sofa="1" begin="427" end="433" lemma="3436" pos="2430"/>
+    <type6:Token xmi:id="915" sofa="1" begin="433" end="434" lemma="3441" pos="2436"/>
+    <type6:Token xmi:id="927" sofa="1" begin="435" end="446" lemma="3446" pos="2442"/>
+    <type6:Token xmi:id="939" sofa="1" begin="447" end="450" lemma="3451" pos="2448"/>
+    <type6:Token xmi:id="951" sofa="1" begin="451" end="468" lemma="3456" pos="2454"/>
+    <type6:Token xmi:id="963" sofa="1" begin="469" end="471" lemma="3461" pos="2460"/>
+    <type6:Token xmi:id="975" sofa="1" begin="472" end="480" lemma="3466" pos="2466"/>
+    <type6:Token xmi:id="987" sofa="1" begin="481" end="485" lemma="3471" pos="2472"/>
+    <type6:Token xmi:id="999" sofa="1" begin="486" end="487" lemma="3476" pos="2478"/>
+    <type6:Token xmi:id="1011" sofa="1" begin="487" end="488" lemma="3481" pos="2484"/>
+    <type6:Token xmi:id="1023" sofa="1" begin="489" end="493" lemma="3486" pos="2490"/>
+    <type6:Token xmi:id="1035" sofa="1" begin="494" end="497" lemma="3491" pos="2496"/>
+    <type6:Token xmi:id="1047" sofa="1" begin="498" end="500" lemma="3496" pos="2502"/>
+    <type6:Token xmi:id="1059" sofa="1" begin="501" end="506" lemma="3501" pos="2508"/>
+    <type6:Token xmi:id="1071" sofa="1" begin="507" end="511" lemma="3506" pos="2514"/>
+    <type6:Token xmi:id="1083" sofa="1" begin="512" end="515" lemma="3511" pos="2520"/>
+    <type6:Token xmi:id="1095" sofa="1" begin="516" end="534" lemma="3516" pos="2526"/>
+    <type6:Token xmi:id="1107" sofa="1" begin="535" end="538" lemma="3521" pos="2532"/>
+    <type6:Token xmi:id="1119" sofa="1" begin="539" end="545" lemma="3526" pos="2538"/>
+    <type6:Token xmi:id="1131" sofa="1" begin="546" end="554" lemma="3531" pos="2544"/>
+    <type6:Token xmi:id="1143" sofa="1" begin="555" end="558" lemma="3536" pos="2550"/>
+    <type6:Token xmi:id="1155" sofa="1" begin="559" end="562" lemma="3541" pos="2556"/>
+    <type6:Token xmi:id="1167" sofa="1" begin="563" end="580" lemma="3546" pos="2562"/>
+    <type6:Token xmi:id="1179" sofa="1" begin="581" end="584" lemma="3551" pos="2568"/>
+    <type6:Token xmi:id="1191" sofa="1" begin="585" end="588" lemma="3556" pos="2574"/>
+    <type6:Token xmi:id="1203" sofa="1" begin="588" end="589" lemma="3561" pos="2580"/>
+    <type4:TagsetDescription xmi:id="1230" sofa="1" begin="0" end="589" layer="de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS" name="stts" tags="1243 1245 1247 1249 1251 1253 1255 1257 1259 1261 1263 1265 1267 1269 1271 1273 1275 1277 1279 1281 1283 1285 1287 1289 1291 1293 1295 1297 1299 1301 1303 1305 1307 1309 1311 1313 1315 1317 1319 1321 1323 1325 1327 1329 1331 1333 1335 1337 1339 1341 1343 1345 1347 1349 1351" componentName="de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordPosTagger" modelLocation="classpath:/de/tudarmstadt/ukp/dkpro/core/stanfordnlp/lib/tagger-de-fast.properties" modelVariant="fast" modelLanguage="de" modelVersion="20140827.1" input="false"/>
+    <type4:TagsetDescription xmi:id="3566" sofa="1" begin="0" end="589" layer="de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity" name="unknown" tags="3579 3581 3583 3585 3587 3589 3591" componentName="de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordNamedEntityRecognizer" modelLocation="classpath:/de/tudarmstadt/ukp/dkpro/core/stanfordnlp/lib/ner-de-dewac_175m_600.crf.properties" modelVariant="dewac_175m_600.crf" modelLanguage="de" modelVersion="20150130.1" input="false"/>
+    <pos:POS_PROPN xmi:id="1410" sofa="1" begin="0" end="6" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="1518" sofa="1" begin="0" end="6" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="1434" sofa="1" begin="20" end="23" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="1542" sofa="1" begin="20" end="23" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="1932" sofa="1" begin="318" end="324" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2328" sofa="1" begin="318" end="324" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="1980" sofa="1" begin="376" end="380" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2376" sofa="1" begin="376" end="380" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2076" sofa="1" begin="481" end="485" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2472" sofa="1" begin="481" end="485" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2178" sofa="1" begin="585" end="588" PosValue="NE"/>
+    <pos:POS_PROPN xmi:id="2574" sofa="1" begin="585" end="588" PosValue="NE"/>
+    <pos:POS_VERB xmi:id="1416" sofa="1" begin="7" end="12" PosValue="VVFIN"/>
+    <pos:POS_VERB xmi:id="1524" sofa="1" begin="7" end="12" PosValue="VVFIN"/>
+    <pos:POS_VERB xmi:id="1440" sofa="1" begin="24" end="27" PosValue="PTKVZ"/>
+    <pos:POS_VERB xmi:id="1548" sofa="1" begin="24" end="27" PosValue="PTKVZ"/>
+    <pos:POS_VERB xmi:id="1452" sofa="1" begin="32" end="35" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="1560" sofa="1" begin="32" end="35" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="1674" sofa="1" begin="150" end="156" PosValue="VVFIN"/>
+    <pos:POS_VERB xmi:id="1758" sofa="1" begin="150" end="156" PosValue="VVFIN"/>
+    <pos:POS_VERB xmi:id="1824" sofa="1" begin="234" end="239" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="2220" sofa="1" begin="234" end="239" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="1872" sofa="1" begin="284" end="291" PosValue="VVPP"/>
+    <pos:POS_VERB xmi:id="2268" sofa="1" begin="284" end="291" PosValue="VVPP"/>
+    <pos:POS_VERB xmi:id="1926" sofa="1" begin="314" end="317" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="2322" sofa="1" begin="314" end="317" PosValue="VAFIN"/>
+    <pos:POS_VERB xmi:id="2148" sofa="1" begin="546" end="554" PosValue="VVFIN"/>
+    <pos:POS_VERB xmi:id="2544" sofa="1" begin="546" end="554" PosValue="VVFIN"/>
+    <pos:POS_ADP xmi:id="1422" sofa="1" begin="13" end="15" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1530" sofa="1" begin="13" end="15" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1464" sofa="1" begin="41" end="44" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1572" sofa="1" begin="41" end="44" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1476" sofa="1" begin="56" end="58" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="1584" sofa="1" begin="56" end="58" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="1488" sofa="1" begin="75" end="78" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1596" sofa="1" begin="75" end="78" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1626" sofa="1" begin="107" end="110" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1710" sofa="1" begin="107" end="110" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1644" sofa="1" begin="130" end="132" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="1728" sofa="1" begin="130" end="132" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="1794" sofa="1" begin="192" end="195" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2190" sofa="1" begin="192" end="195" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1836" sofa="1" begin="244" end="246" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2232" sofa="1" begin="244" end="246" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1854" sofa="1" begin="263" end="265" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2250" sofa="1" begin="263" end="265" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1902" sofa="1" begin="296" end="299" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2298" sofa="1" begin="296" end="299" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1914" sofa="1" begin="305" end="308" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2310" sofa="1" begin="305" end="308" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1944" sofa="1" begin="342" end="345" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2340" sofa="1" begin="342" end="345" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="1968" sofa="1" begin="364" end="366" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="2364" sofa="1" begin="364" end="366" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="1998" sofa="1" begin="388" end="391" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2394" sofa="1" begin="388" end="391" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2010" sofa="1" begin="397" end="400" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2406" sofa="1" begin="397" end="400" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2028" sofa="1" begin="423" end="426" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2424" sofa="1" begin="423" end="426" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2064" sofa="1" begin="469" end="471" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="2460" sofa="1" begin="469" end="471" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="2100" sofa="1" begin="494" end="497" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2496" sofa="1" begin="494" end="497" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2106" sofa="1" begin="498" end="500" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2502" sofa="1" begin="498" end="500" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2124" sofa="1" begin="512" end="515" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="2520" sofa="1" begin="512" end="515" PosValue="APPRART"/>
+    <pos:POS_ADP xmi:id="2160" sofa="1" begin="559" end="562" PosValue="APPR"/>
+    <pos:POS_ADP xmi:id="2556" sofa="1" begin="559" end="562" PosValue="APPR"/>
+    <pos:POS_DET xmi:id="1428" sofa="1" begin="16" end="19" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1536" sofa="1" begin="16" end="19" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1632" sofa="1" begin="111" end="114" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1716" sofa="1" begin="111" end="114" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1692" sofa="1" begin="170" end="173" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1776" sofa="1" begin="170" end="173" PosValue="ART"/>
+    <pos:POS_DET xmi:id="1800" sofa="1" begin="196" end="199" PosValue="ART"/>
+    <pos:POS_DET xmi:id="2196" sofa="1" begin="196" end="199" PosValue="ART"/>
+    <pos:POS_DET xmi:id="2136" sofa="1" begin="535" end="538" PosValue="ART"/>
+    <pos:POS_DET xmi:id="2532" sofa="1" begin="535" end="538" PosValue="ART"/>
+    <pos:POS_DET xmi:id="2172" sofa="1" begin="581" end="584" PosValue="ART"/>
+    <pos:POS_DET xmi:id="2568" sofa="1" begin="581" end="584" PosValue="ART"/>
+    <pos:POS_CONJ xmi:id="1446" sofa="1" begin="28" end="31" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="1554" sofa="1" begin="28" end="31" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="1956" sofa="1" begin="353" end="356" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="2352" sofa="1" begin="353" end="356" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="1992" sofa="1" begin="384" end="387" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="2388" sofa="1" begin="384" end="387" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="2052" sofa="1" begin="447" end="450" PosValue="KON"/>
+    <pos:POS_CONJ xmi:id="2448" sofa="1" begin="447" end="450" PosValue="KON"/>
+    <pos:POS_ADV xmi:id="1458" sofa="1" begin="36" end="40" PosValue="ADV"/>
+    <pos:POS_ADV xmi:id="1566" sofa="1" begin="36" end="40" PosValue="ADV"/>
+    <pos:POS_ADV xmi:id="1686" sofa="1" begin="161" end="169" PosValue="ADV"/>
+    <pos:POS_ADV xmi:id="1770" sofa="1" begin="161" end="169" PosValue="ADV"/>
+    <pos:POS_NOUN xmi:id="1470" sofa="1" begin="45" end="55" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1578" sofa="1" begin="45" end="55" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1482" sofa="1" begin="59" end="74" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1590" sofa="1" begin="59" end="74" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1500" sofa="1" begin="93" end="99" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1608" sofa="1" begin="93" end="99" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1638" sofa="1" begin="115" end="129" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1722" sofa="1" begin="115" end="129" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1662" sofa="1" begin="136" end="144" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1746" sofa="1" begin="136" end="144" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1698" sofa="1" begin="174" end="190" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1782" sofa="1" begin="174" end="190" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1818" sofa="1" begin="217" end="233" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2214" sofa="1" begin="217" end="233" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1848" sofa="1" begin="253" end="262" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2244" sofa="1" begin="253" end="262" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1860" sofa="1" begin="266" end="276" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2256" sofa="1" begin="266" end="276" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1938" sofa="1" begin="325" end="341" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2334" sofa="1" begin="325" end="341" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1950" sofa="1" begin="346" end="352" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2346" sofa="1" begin="346" end="352" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1962" sofa="1" begin="357" end="363" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2358" sofa="1" begin="357" end="363" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="1974" sofa="1" begin="367" end="375" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2370" sofa="1" begin="367" end="375" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2022" sofa="1" begin="406" end="422" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2418" sofa="1" begin="406" end="422" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2034" sofa="1" begin="427" end="433" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2430" sofa="1" begin="427" end="433" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2046" sofa="1" begin="435" end="446" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2442" sofa="1" begin="435" end="446" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2058" sofa="1" begin="451" end="468" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2454" sofa="1" begin="451" end="468" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2070" sofa="1" begin="472" end="480" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2466" sofa="1" begin="472" end="480" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2118" sofa="1" begin="507" end="511" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2514" sofa="1" begin="507" end="511" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2130" sofa="1" begin="516" end="534" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2526" sofa="1" begin="516" end="534" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2142" sofa="1" begin="539" end="545" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2538" sofa="1" begin="539" end="545" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2166" sofa="1" begin="563" end="580" PosValue="NN"/>
+    <pos:POS_NOUN xmi:id="2562" sofa="1" begin="563" end="580" PosValue="NN"/>
+    <pos:POS_ADJ xmi:id="1494" sofa="1" begin="79" end="92" PosValue="ADJA"/>
+    <pos:POS_ADJ xmi:id="1602" sofa="1" begin="79" end="92" PosValue="ADJA"/>
+    <pos:POS_ADJ xmi:id="1506" sofa="1" begin="100" end="105" PosValue="ADJD"/>
+    <pos:POS_ADJ xmi:id="1614" sofa="1" begin="100" end="105" PosValue="ADJD"/>
+    <pos:POS_ADJ xmi:id="1806" sofa="1" begin="200" end="209" PosValue="ADJA"/>
+    <pos:POS_ADJ xmi:id="2202" sofa="1" begin="200" end="209" PosValue="ADJA"/>
+    <pos:POS_ADJ xmi:id="1866" sofa="1" begin="277" end="283" PosValue="ADJD"/>
+    <pos:POS_ADJ xmi:id="2262" sofa="1" begin="277" end="283" PosValue="ADJD"/>
+    <pos:POS_PUNCT xmi:id="1512" sofa="1" begin="105" end="106" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1620" sofa="1" begin="105" end="106" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1656" sofa="1" begin="134" end="135" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1740" sofa="1" begin="134" end="135" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1704" sofa="1" begin="190" end="191" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1788" sofa="1" begin="190" end="191" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="1878" sofa="1" begin="291" end="292" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="2274" sofa="1" begin="291" end="292" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="2040" sofa="1" begin="433" end="434" PosValue="$,"/>
+    <pos:POS_PUNCT xmi:id="2436" sofa="1" begin="433" end="434" PosValue="$,"/>
+    <pos:POS_PUNCT xmi:id="2088" sofa="1" begin="487" end="488" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="2484" sofa="1" begin="487" end="488" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="2184" sofa="1" begin="588" end="589" PosValue="$."/>
+    <pos:POS_PUNCT xmi:id="2580" sofa="1" begin="588" end="589" PosValue="$."/>
+    <pos:POS_NUM xmi:id="1650" sofa="1" begin="133" end="134" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1734" sofa="1" begin="133" end="134" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1668" sofa="1" begin="145" end="149" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1752" sofa="1" begin="145" end="149" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1812" sofa="1" begin="210" end="216" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2208" sofa="1" begin="210" end="216" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1890" sofa="1" begin="293" end="294" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2286" sofa="1" begin="293" end="294" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1908" sofa="1" begin="300" end="304" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2304" sofa="1" begin="300" end="304" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1920" sofa="1" begin="309" end="313" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2316" sofa="1" begin="309" end="313" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="1986" sofa="1" begin="381" end="383" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2382" sofa="1" begin="381" end="383" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2004" sofa="1" begin="392" end="396" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2400" sofa="1" begin="392" end="396" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2016" sofa="1" begin="401" end="405" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2412" sofa="1" begin="401" end="405" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2082" sofa="1" begin="486" end="487" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2478" sofa="1" begin="486" end="487" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2094" sofa="1" begin="489" end="493" PosValue="CARD"/>
+    <pos:POS_NUM xmi:id="2490" sofa="1" begin="489" end="493" PosValue="CARD"/>
+    <pos:POS_PRON xmi:id="1680" sofa="1" begin="157" end="160" PosValue="PPER"/>
+    <pos:POS_PRON xmi:id="1764" sofa="1" begin="157" end="160" PosValue="PPER"/>
+    <pos:POS_PRON xmi:id="1830" sofa="1" begin="240" end="243" PosValue="PPER"/>
+    <pos:POS_PRON xmi:id="2226" sofa="1" begin="240" end="243" PosValue="PPER"/>
+    <pos:POS_PRON xmi:id="1842" sofa="1" begin="247" end="252" PosValue="PPOSAT"/>
+    <pos:POS_PRON xmi:id="2238" sofa="1" begin="247" end="252" PosValue="PPOSAT"/>
+    <pos:POS_PRON xmi:id="2112" sofa="1" begin="501" end="506" PosValue="PPOSAT"/>
+    <pos:POS_PRON xmi:id="2508" sofa="1" begin="501" end="506" PosValue="PPOSAT"/>
+    <pos:POS_PRON xmi:id="2154" sofa="1" begin="555" end="558" PosValue="PPER"/>
+    <pos:POS_PRON xmi:id="2550" sofa="1" begin="555" end="558" PosValue="PPER"/>
+    <pos:POS_X xmi:id="1884" sofa="1" begin="292" end="293" PosValue="TRUNC"/>
+    <pos:POS_X xmi:id="2280" sofa="1" begin="292" end="293" PosValue="TRUNC"/>
+    <pos:POS_X xmi:id="1896" sofa="1" begin="294" end="295" PosValue="TRUNC"/>
+    <pos:POS_X xmi:id="2292" sofa="1" begin="294" end="295" PosValue="TRUNC"/>
+    <type6:Lemma xmi:id="2586" sofa="1" begin="0" end="6" value="Merkel"/>
+    <type6:Lemma xmi:id="2676" sofa="1" begin="0" end="6" value="Merkel"/>
+    <type6:Lemma xmi:id="2591" sofa="1" begin="7" end="12" value="wachsen"/>
+    <type6:Lemma xmi:id="2681" sofa="1" begin="7" end="12" value="wachsen"/>
+    <type6:Lemma xmi:id="2596" sofa="1" begin="13" end="15" value="in"/>
+    <type6:Lemma xmi:id="2686" sofa="1" begin="13" end="15" value="in"/>
+    <type6:Lemma xmi:id="2601" sofa="1" begin="16" end="19" value="der"/>
+    <type6:Lemma xmi:id="2691" sofa="1" begin="16" end="19" value="der"/>
+    <type6:Lemma xmi:id="2606" sofa="1" begin="20" end="23" value="DDR"/>
+    <type6:Lemma xmi:id="2696" sofa="1" begin="20" end="23" value="DDR"/>
+    <type6:Lemma xmi:id="2611" sofa="1" begin="24" end="27" value="auf"/>
+    <type6:Lemma xmi:id="2701" sofa="1" begin="24" end="27" value="auf"/>
+    <type6:Lemma xmi:id="2616" sofa="1" begin="28" end="31" value="und"/>
+    <type6:Lemma xmi:id="2706" sofa="1" begin="28" end="31" value="und"/>
+    <type6:Lemma xmi:id="2621" sofa="1" begin="32" end="35" value="sein"/>
+    <type6:Lemma xmi:id="2711" sofa="1" begin="32" end="35" value="sein"/>
+    <type6:Lemma xmi:id="2626" sofa="1" begin="36" end="40" value="dort"/>
+    <type6:Lemma xmi:id="2716" sofa="1" begin="36" end="40" value="dort"/>
+    <type6:Lemma xmi:id="2631" sofa="1" begin="41" end="44" value="als"/>
+    <type6:Lemma xmi:id="2721" sofa="1" begin="41" end="44" value="als"/>
+    <type6:Lemma xmi:id="2636" sofa="1" begin="45" end="55" value="Physikerin"/>
+    <type6:Lemma xmi:id="2726" sofa="1" begin="45" end="55" value="Physikerin"/>
+    <type6:Lemma xmi:id="2641" sofa="1" begin="56" end="58" value="am"/>
+    <type6:Lemma xmi:id="2731" sofa="1" begin="56" end="58" value="am"/>
+    <type6:Lemma xmi:id="2646" sofa="1" begin="59" end="74" value="Zentralinstitut"/>
+    <type6:Lemma xmi:id="2736" sofa="1" begin="59" end="74" value="Zentralinstitut"/>
+    <type6:Lemma xmi:id="2651" sofa="1" begin="75" end="78" value="für"/>
+    <type6:Lemma xmi:id="2741" sofa="1" begin="75" end="78" value="für"/>
+    <type6:Lemma xmi:id="2656" sofa="1" begin="79" end="92" value="Physikalische"/>
+    <type6:Lemma xmi:id="2746" sofa="1" begin="79" end="92" value="Physikalische"/>
+    <type6:Lemma xmi:id="2661" sofa="1" begin="93" end="99" value="Chemie"/>
+    <type6:Lemma xmi:id="2751" sofa="1" begin="93" end="99" value="Chemie"/>
+    <type6:Lemma xmi:id="2666" sofa="1" begin="100" end="105" value="tätig"/>
+    <type6:Lemma xmi:id="2756" sofa="1" begin="100" end="105" value="tätig"/>
+    <type6:Lemma xmi:id="2671" sofa="1" begin="105" end="106" value="."/>
+    <type6:Lemma xmi:id="2761" sofa="1" begin="105" end="106" value="."/>
+    <type6:Lemma xmi:id="2766" sofa="1" begin="107" end="110" value="bei"/>
+    <type6:Lemma xmi:id="2836" sofa="1" begin="107" end="110" value="bei"/>
+    <type6:Lemma xmi:id="2771" sofa="1" begin="111" end="114" value="der"/>
+    <type6:Lemma xmi:id="2841" sofa="1" begin="111" end="114" value="der"/>
+    <type6:Lemma xmi:id="2776" sofa="1" begin="115" end="129" value="Bundestagswahl"/>
+    <type6:Lemma xmi:id="2846" sofa="1" begin="115" end="129" value="Bundestagswahl"/>
+    <type6:Lemma xmi:id="2781" sofa="1" begin="130" end="132" value="am"/>
+    <type6:Lemma xmi:id="2851" sofa="1" begin="130" end="132" value="am"/>
+    <type6:Lemma xmi:id="2786" sofa="1" begin="133" end="134" value="2"/>
+    <type6:Lemma xmi:id="2856" sofa="1" begin="133" end="134" value="2"/>
+    <type6:Lemma xmi:id="2791" sofa="1" begin="134" end="135" value="."/>
+    <type6:Lemma xmi:id="2861" sofa="1" begin="134" end="135" value="."/>
+    <type6:Lemma xmi:id="2796" sofa="1" begin="136" end="144" value="Dezember"/>
+    <type6:Lemma xmi:id="2866" sofa="1" begin="136" end="144" value="Dezember"/>
+    <type6:Lemma xmi:id="2801" sofa="1" begin="145" end="149" value="1990"/>
+    <type6:Lemma xmi:id="2871" sofa="1" begin="145" end="149" value="1990"/>
+    <type6:Lemma xmi:id="2806" sofa="1" begin="150" end="156" value="erringen"/>
+    <type6:Lemma xmi:id="2876" sofa="1" begin="150" end="156" value="erringen"/>
+    <type6:Lemma xmi:id="2811" sofa="1" begin="157" end="160" value="ich"/>
+    <type6:Lemma xmi:id="2881" sofa="1" begin="157" end="160" value="ich"/>
+    <type6:Lemma xmi:id="2816" sofa="1" begin="161" end="169" value="erstmals"/>
+    <type6:Lemma xmi:id="2886" sofa="1" begin="161" end="169" value="erstmals"/>
+    <type6:Lemma xmi:id="2821" sofa="1" begin="170" end="173" value="ein"/>
+    <type6:Lemma xmi:id="2891" sofa="1" begin="170" end="173" value="ein"/>
+    <type6:Lemma xmi:id="2826" sofa="1" begin="174" end="190" value="Bundestagsmandat"/>
+    <type6:Lemma xmi:id="2896" sofa="1" begin="174" end="190" value="Bundestagsmandat"/>
+    <type6:Lemma xmi:id="2831" sofa="1" begin="190" end="191" value="."/>
+    <type6:Lemma xmi:id="2901" sofa="1" begin="190" end="191" value="."/>
+    <type6:Lemma xmi:id="2906" sofa="1" begin="192" end="195" value="bei"/>
+    <type6:Lemma xmi:id="3236" sofa="1" begin="192" end="195" value="bei"/>
+    <type6:Lemma xmi:id="2911" sofa="1" begin="196" end="199" value="der"/>
+    <type6:Lemma xmi:id="3241" sofa="1" begin="196" end="199" value="der"/>
+    <type6:Lemma xmi:id="2916" sofa="1" begin="200" end="209" value="folgend"/>
+    <type6:Lemma xmi:id="3246" sofa="1" begin="200" end="209" value="folgend"/>
+    <type6:Lemma xmi:id="2921" sofa="1" begin="210" end="216" value="sieben"/>
+    <type6:Lemma xmi:id="3251" sofa="1" begin="210" end="216" value="sieben"/>
+    <type6:Lemma xmi:id="2926" sofa="1" begin="217" end="233" value="Bundestagswahl"/>
+    <type6:Lemma xmi:id="3256" sofa="1" begin="217" end="233" value="Bundestagswahl"/>
+    <type6:Lemma xmi:id="2931" sofa="1" begin="234" end="239" value="werden"/>
+    <type6:Lemma xmi:id="3261" sofa="1" begin="234" end="239" value="werden"/>
+    <type6:Lemma xmi:id="2936" sofa="1" begin="240" end="243" value="ich"/>
+    <type6:Lemma xmi:id="3266" sofa="1" begin="240" end="243" value="ich"/>
+    <type6:Lemma xmi:id="2941" sofa="1" begin="244" end="246" value="in"/>
+    <type6:Lemma xmi:id="3271" sofa="1" begin="244" end="246" value="in"/>
+    <type6:Lemma xmi:id="2946" sofa="1" begin="247" end="252" value="mein"/>
+    <type6:Lemma xmi:id="3276" sofa="1" begin="247" end="252" value="mein"/>
+    <type6:Lemma xmi:id="2951" sofa="1" begin="253" end="262" value="Wahlkreis"/>
+    <type6:Lemma xmi:id="3281" sofa="1" begin="253" end="262" value="Wahlkreis"/>
+    <type6:Lemma xmi:id="2956" sofa="1" begin="263" end="265" value="in"/>
+    <type6:Lemma xmi:id="3286" sofa="1" begin="263" end="265" value="in"/>
+    <type6:Lemma xmi:id="2961" sofa="1" begin="266" end="276" value="Vorpommern"/>
+    <type6:Lemma xmi:id="3291" sofa="1" begin="266" end="276" value="Vorpommern"/>
+    <type6:Lemma xmi:id="2966" sofa="1" begin="277" end="283" value="direkt"/>
+    <type6:Lemma xmi:id="3296" sofa="1" begin="277" end="283" value="direkt"/>
+    <type6:Lemma xmi:id="2971" sofa="1" begin="284" end="291" value="gewählt"/>
+    <type6:Lemma xmi:id="3301" sofa="1" begin="284" end="291" value="gewählt"/>
+    <type6:Lemma xmi:id="2976" sofa="1" begin="291" end="292" value="."/>
+    <type6:Lemma xmi:id="3306" sofa="1" begin="291" end="292" value="."/>
+    <type6:Lemma xmi:id="2981" sofa="1" begin="292" end="293" value="["/>
+    <type6:Lemma xmi:id="3311" sofa="1" begin="292" end="293" value="["/>
+    <type6:Lemma xmi:id="2986" sofa="1" begin="293" end="294" value="2"/>
+    <type6:Lemma xmi:id="3316" sofa="1" begin="293" end="294" value="2"/>
+    <type6:Lemma xmi:id="2991" sofa="1" begin="294" end="295" value="]"/>
+    <type6:Lemma xmi:id="3321" sofa="1" begin="294" end="295" value="]"/>
+    <type6:Lemma xmi:id="2996" sofa="1" begin="296" end="299" value="Von"/>
+    <type6:Lemma xmi:id="3326" sofa="1" begin="296" end="299" value="Von"/>
+    <type6:Lemma xmi:id="3001" sofa="1" begin="300" end="304" value="1991"/>
+    <type6:Lemma xmi:id="3331" sofa="1" begin="300" end="304" value="1991"/>
+    <type6:Lemma xmi:id="3006" sofa="1" begin="305" end="308" value="bis"/>
+    <type6:Lemma xmi:id="3336" sofa="1" begin="305" end="308" value="bis"/>
+    <type6:Lemma xmi:id="3011" sofa="1" begin="309" end="313" value="1994"/>
+    <type6:Lemma xmi:id="3341" sofa="1" begin="309" end="313" value="1994"/>
+    <type6:Lemma xmi:id="3016" sofa="1" begin="314" end="317" value="sein"/>
+    <type6:Lemma xmi:id="3346" sofa="1" begin="314" end="317" value="sein"/>
+    <type6:Lemma xmi:id="3021" sofa="1" begin="318" end="324" value="Merkel"/>
+    <type6:Lemma xmi:id="3351" sofa="1" begin="318" end="324" value="Merkel"/>
+    <type6:Lemma xmi:id="3026" sofa="1" begin="325" end="341" value="Bundesministerin"/>
+    <type6:Lemma xmi:id="3356" sofa="1" begin="325" end="341" value="Bundesministerin"/>
+    <type6:Lemma xmi:id="3031" sofa="1" begin="342" end="345" value="für"/>
+    <type6:Lemma xmi:id="3361" sofa="1" begin="342" end="345" value="für"/>
+    <type6:Lemma xmi:id="3036" sofa="1" begin="346" end="352" value="Frau"/>
+    <type6:Lemma xmi:id="3366" sofa="1" begin="346" end="352" value="Frau"/>
+    <type6:Lemma xmi:id="3041" sofa="1" begin="353" end="356" value="und"/>
+    <type6:Lemma xmi:id="3371" sofa="1" begin="353" end="356" value="und"/>
+    <type6:Lemma xmi:id="3046" sofa="1" begin="357" end="363" value="Jugend"/>
+    <type6:Lemma xmi:id="3376" sofa="1" begin="357" end="363" value="Jugend"/>
+    <type6:Lemma xmi:id="3051" sofa="1" begin="364" end="366" value="im"/>
+    <type6:Lemma xmi:id="3381" sofa="1" begin="364" end="366" value="im"/>
+    <type6:Lemma xmi:id="3056" sofa="1" begin="367" end="375" value="Kabinett"/>
+    <type6:Lemma xmi:id="3386" sofa="1" begin="367" end="375" value="Kabinett"/>
+    <type6:Lemma xmi:id="3061" sofa="1" begin="376" end="380" value="Kohl"/>
+    <type6:Lemma xmi:id="3391" sofa="1" begin="376" end="380" value="Kohl"/>
+    <type6:Lemma xmi:id="3066" sofa="1" begin="381" end="383" value="IV"/>
+    <type6:Lemma xmi:id="3396" sofa="1" begin="381" end="383" value="IV"/>
+    <type6:Lemma xmi:id="3071" sofa="1" begin="384" end="387" value="und"/>
+    <type6:Lemma xmi:id="3401" sofa="1" begin="384" end="387" value="und"/>
+    <type6:Lemma xmi:id="3076" sofa="1" begin="388" end="391" value="von"/>
+    <type6:Lemma xmi:id="3406" sofa="1" begin="388" end="391" value="von"/>
+    <type6:Lemma xmi:id="3081" sofa="1" begin="392" end="396" value="1994"/>
+    <type6:Lemma xmi:id="3411" sofa="1" begin="392" end="396" value="1994"/>
+    <type6:Lemma xmi:id="3086" sofa="1" begin="397" end="400" value="bis"/>
+    <type6:Lemma xmi:id="3416" sofa="1" begin="397" end="400" value="bis"/>
+    <type6:Lemma xmi:id="3091" sofa="1" begin="401" end="405" value="1998"/>
+    <type6:Lemma xmi:id="3421" sofa="1" begin="401" end="405" value="1998"/>
+    <type6:Lemma xmi:id="3096" sofa="1" begin="406" end="422" value="Bundesministerin"/>
+    <type6:Lemma xmi:id="3426" sofa="1" begin="406" end="422" value="Bundesministerin"/>
+    <type6:Lemma xmi:id="3101" sofa="1" begin="423" end="426" value="für"/>
+    <type6:Lemma xmi:id="3431" sofa="1" begin="423" end="426" value="für"/>
+    <type6:Lemma xmi:id="3106" sofa="1" begin="427" end="433" value="Umwelt"/>
+    <type6:Lemma xmi:id="3436" sofa="1" begin="427" end="433" value="Umwelt"/>
+    <type6:Lemma xmi:id="3111" sofa="1" begin="433" end="434" value=","/>
+    <type6:Lemma xmi:id="3441" sofa="1" begin="433" end="434" value=","/>
+    <type6:Lemma xmi:id="3116" sofa="1" begin="435" end="446" value="Naturschutz"/>
+    <type6:Lemma xmi:id="3446" sofa="1" begin="435" end="446" value="Naturschutz"/>
+    <type6:Lemma xmi:id="3121" sofa="1" begin="447" end="450" value="und"/>
+    <type6:Lemma xmi:id="3451" sofa="1" begin="447" end="450" value="und"/>
+    <type6:Lemma xmi:id="3126" sofa="1" begin="451" end="468" value="Reaktorsicherheit"/>
+    <type6:Lemma xmi:id="3456" sofa="1" begin="451" end="468" value="Reaktorsicherheit"/>
+    <type6:Lemma xmi:id="3131" sofa="1" begin="469" end="471" value="im"/>
+    <type6:Lemma xmi:id="3461" sofa="1" begin="469" end="471" value="im"/>
+    <type6:Lemma xmi:id="3136" sofa="1" begin="472" end="480" value="Kabinett"/>
+    <type6:Lemma xmi:id="3466" sofa="1" begin="472" end="480" value="Kabinett"/>
+    <type6:Lemma xmi:id="3141" sofa="1" begin="481" end="485" value="Kohl"/>
+    <type6:Lemma xmi:id="3471" sofa="1" begin="481" end="485" value="Kohl"/>
+    <type6:Lemma xmi:id="3146" sofa="1" begin="486" end="487" value="V"/>
+    <type6:Lemma xmi:id="3476" sofa="1" begin="486" end="487" value="V"/>
+    <type6:Lemma xmi:id="3151" sofa="1" begin="487" end="488" value="."/>
+    <type6:Lemma xmi:id="3481" sofa="1" begin="487" end="488" value="."/>
+    <type6:Lemma xmi:id="3156" sofa="1" begin="489" end="493" value="1998"/>
+    <type6:Lemma xmi:id="3486" sofa="1" begin="489" end="493" value="1998"/>
+    <type6:Lemma xmi:id="3161" sofa="1" begin="494" end="497" value="bis"/>
+    <type6:Lemma xmi:id="3491" sofa="1" begin="494" end="497" value="bis"/>
+    <type6:Lemma xmi:id="3166" sofa="1" begin="498" end="500" value="zu"/>
+    <type6:Lemma xmi:id="3496" sofa="1" begin="498" end="500" value="zu"/>
+    <type6:Lemma xmi:id="3171" sofa="1" begin="501" end="506" value="mein"/>
+    <type6:Lemma xmi:id="3501" sofa="1" begin="501" end="506" value="mein"/>
+    <type6:Lemma xmi:id="3176" sofa="1" begin="507" end="511" value="Wahl"/>
+    <type6:Lemma xmi:id="3506" sofa="1" begin="507" end="511" value="Wahl"/>
+    <type6:Lemma xmi:id="3181" sofa="1" begin="512" end="515" value="zur"/>
+    <type6:Lemma xmi:id="3511" sofa="1" begin="512" end="515" value="zur"/>
+    <type6:Lemma xmi:id="3186" sofa="1" begin="516" end="534" value="Bundesvorsitzende"/>
+    <type6:Lemma xmi:id="3516" sofa="1" begin="516" end="534" value="Bundesvorsitzende"/>
+    <type6:Lemma xmi:id="3191" sofa="1" begin="535" end="538" value="der"/>
+    <type6:Lemma xmi:id="3521" sofa="1" begin="535" end="538" value="der"/>
+    <type6:Lemma xmi:id="3196" sofa="1" begin="539" end="545" value="Partei"/>
+    <type6:Lemma xmi:id="3526" sofa="1" begin="539" end="545" value="Partei"/>
+    <type6:Lemma xmi:id="3201" sofa="1" begin="546" end="554" value="amtiert"/>
+    <type6:Lemma xmi:id="3531" sofa="1" begin="546" end="554" value="amtiert"/>
+    <type6:Lemma xmi:id="3206" sofa="1" begin="555" end="558" value="ich"/>
+    <type6:Lemma xmi:id="3536" sofa="1" begin="555" end="558" value="ich"/>
+    <type6:Lemma xmi:id="3211" sofa="1" begin="559" end="562" value="als"/>
+    <type6:Lemma xmi:id="3541" sofa="1" begin="559" end="562" value="als"/>
+    <type6:Lemma xmi:id="3216" sofa="1" begin="563" end="580" value="Generalsekretärin"/>
+    <type6:Lemma xmi:id="3546" sofa="1" begin="563" end="580" value="Generalsekretärin"/>
+    <type6:Lemma xmi:id="3221" sofa="1" begin="581" end="584" value="der"/>
+    <type6:Lemma xmi:id="3551" sofa="1" begin="581" end="584" value="der"/>
+    <type6:Lemma xmi:id="3226" sofa="1" begin="585" end="588" value="CDU"/>
+    <type6:Lemma xmi:id="3556" sofa="1" begin="585" end="588" value="CDU"/>
+    <type6:Lemma xmi:id="3231" sofa="1" begin="588" end="589" value="."/>
+    <type6:Lemma xmi:id="3561" sofa="1" begin="588" end="589" value="."/>
+    <heideltime:Timex3 xmi:id="3798" sofa="1" begin="133" end="149" sentId="0" firstTokId="0" allTokIds="BEGIN" timexId="t9" timexInstance="0" timexType="DATE" timexValue="1990-12-02" foundByRule="date_r3a-explicit" timexQuant="" timexFreq="" timexMod="" emptyValue=""/>
+    <heideltime:Timex3 xmi:id="3934" sofa="1" begin="300" end="304" sentId="0" firstTokId="0" allTokIds="BEGIN" timexId="t17" timexInstance="0" timexType="DATE" timexValue="1991" foundByRule="date_r14a-explicit" timexQuant="" timexFreq="" timexMod="" emptyValue=""/>
+    <heideltime:Timex3 xmi:id="3951" sofa="1" begin="309" end="313" sentId="0" firstTokId="0" allTokIds="BEGIN" timexId="t18" timexInstance="0" timexType="DATE" timexValue="1994" foundByRule="date_r14a-explicit" timexQuant="" timexFreq="" timexMod="" emptyValue=""/>
+    <heideltime:Timex3 xmi:id="3968" sofa="1" begin="392" end="396" sentId="0" firstTokId="0" allTokIds="BEGIN" timexId="t19" timexInstance="0" timexType="DATE" timexValue="1994" foundByRule="date_r14a-explicit" timexQuant="" timexFreq="" timexMod="" emptyValue=""/>
+    <heideltime:Timex3 xmi:id="4002" sofa="1" begin="489" end="493" sentId="0" firstTokId="0" allTokIds="BEGIN" timexId="t21" timexInstance="0" timexType="DATE" timexValue="1998" foundByRule="date_r14a-explicit" timexQuant="" timexFreq="" timexMod="" emptyValue=""/>
+    <wikidata:WikiDataHyponym xmi:id="4290" sofa="1" begin="0" end="6" id="Q488383" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4297" sofa="1" begin="0" end="6" id="Q18336849" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4304" sofa="1" begin="0" end="6" id="Q488383" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4311" sofa="1" begin="0" end="6" id="Q795052" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4318" sofa="1" begin="0" end="6" id="Q24229398" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4325" sofa="1" begin="0" end="6" id="Q24229398" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4332" sofa="1" begin="0" end="6" id="Q24229398" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4339" sofa="1" begin="0" end="6" id="Q26720107" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4346" sofa="1" begin="0" end="6" id="Q567" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="4353" sofa="1" begin="0" end="6" id="Q23958946" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4360" sofa="1" begin="0" end="6" id="Q154954" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4367" sofa="1" begin="0" end="6" id="Q830077" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4374" sofa="1" begin="0" end="6" id="Q5" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4381" sofa="1" begin="0" end="6" id="Q35120" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4388" sofa="1" begin="0" end="6" id="Q2198779" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4395" sofa="1" begin="0" end="6" id="Q830077" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4402" sofa="1" begin="0" end="6" id="Q830077" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4409" sofa="1" begin="0" end="6" id="Q3778211" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4416" sofa="1" begin="0" end="6" id="Q35120" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4423" sofa="1" begin="0" end="6" id="Q35120" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4430" sofa="1" begin="0" end="6" id="Q4330518" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4437" sofa="1" begin="0" end="6" id="Q7184903" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4444" sofa="1" begin="0" end="6" id="Q7887142" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4451" sofa="1" begin="0" end="6" id="Q215627" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4486" sofa="1" begin="20" end="23" id="Q58415929" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="4493" sofa="1" begin="20" end="23" id="Q24229398" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4500" sofa="1" begin="20" end="23" id="Q874405" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4507" sofa="1" begin="20" end="23" id="Q15642541" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4514" sofa="1" begin="20" end="23" id="Q16334298" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4521" sofa="1" begin="20" end="23" id="Q41796" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4528" sofa="1" begin="20" end="23" id="Q4406616" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="4535" sofa="1" begin="20" end="23" id="Q2684591" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4542" sofa="1" begin="20" end="23" id="Q7275" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4549" sofa="1" begin="20" end="23" id="Q517966" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4556" sofa="1" begin="20" end="23" id="Q325261" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4563" sofa="1" begin="20" end="23" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="4570" sofa="1" begin="20" end="23" id="Q7184903" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4577" sofa="1" begin="20" end="23" id="Q24229398" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4584" sofa="1" begin="20" end="23" id="Q58415929" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="4591" sofa="1" begin="20" end="23" id="Q16887380" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4598" sofa="1" begin="20" end="23" id="Q15642541" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4605" sofa="1" begin="20" end="23" id="Q177634" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4612" sofa="1" begin="20" end="23" id="Q4406616" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="4619" sofa="1" begin="20" end="23" id="Q19829125" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4626" sofa="1" begin="20" end="23" id="Q23958946" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4633" sofa="1" begin="20" end="23" id="Q517966" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4640" sofa="1" begin="20" end="23" id="Q188572" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4647" sofa="1" begin="20" end="23" id="Q7275" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4654" sofa="1" begin="20" end="23" id="Q19832712" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4661" sofa="1" begin="20" end="23" id="Q35120" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4668" sofa="1" begin="20" end="23" id="Q15893266" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4675" sofa="1" begin="20" end="23" id="Q43229" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4682" sofa="1" begin="20" end="23" id="Q7184903" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="4689" sofa="1" begin="20" end="23" id="Q35120" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="4696" sofa="1" begin="20" end="23" id="Q1207505" depth="15"/>
+    <wikidata:WikiDataHyponym xmi:id="4703" sofa="1" begin="20" end="23" id="Q488383" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4710" sofa="1" begin="20" end="23" id="Q58778" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4717" sofa="1" begin="20" end="23" id="Q23958946" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4724" sofa="1" begin="20" end="23" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="4731" sofa="1" begin="20" end="23" id="Q2198779" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4738" sofa="1" begin="20" end="23" id="Q108163" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4745" sofa="1" begin="20" end="23" id="Q1048835" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4752" sofa="1" begin="20" end="23" id="Q58416391" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="4759" sofa="1" begin="20" end="23" id="Q35120" depth="16"/>
+    <wikidata:WikiDataHyponym xmi:id="4766" sofa="1" begin="20" end="23" id="Q43229" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4773" sofa="1" begin="20" end="23" id="Q151885" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="4780" sofa="1" begin="20" end="23" id="Q16686448" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4787" sofa="1" begin="20" end="23" id="Q24229398" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4794" sofa="1" begin="20" end="23" id="Q246672" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4801" sofa="1" begin="20" end="23" id="Q58778" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4808" sofa="1" begin="20" end="23" id="Q488383" depth="13"/>
+    <wikidata:WikiDataHyponym xmi:id="4815" sofa="1" begin="20" end="23" id="Q16334298" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4822" sofa="1" begin="20" end="23" id="Q29651519" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="4829" sofa="1" begin="20" end="23" id="Q2198779" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4836" sofa="1" begin="20" end="23" id="Q1151405" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4843" sofa="1" begin="20" end="23" id="Q3024240" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="4850" sofa="1" begin="20" end="23" id="Q58416391" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="4857" sofa="1" begin="20" end="23" id="Q43229" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4864" sofa="1" begin="20" end="23" id="Q1048835" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4871" sofa="1" begin="20" end="23" id="Q15893266" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="4878" sofa="1" begin="20" end="23" id="Q4204519" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4885" sofa="1" begin="20" end="23" id="Q7184903" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4892" sofa="1" begin="20" end="23" id="Q7184903" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="4899" sofa="1" begin="20" end="23" id="Q1496967" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="4906" sofa="1" begin="20" end="23" id="Q183046" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="4913" sofa="1" begin="20" end="23" id="Q56061" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4920" sofa="1" begin="20" end="23" id="Q58415929" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4927" sofa="1" begin="20" end="23" id="Q26907166" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4934" sofa="1" begin="20" end="23" id="Q17553950" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4941" sofa="1" begin="20" end="23" id="Q488383" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="4948" sofa="1" begin="20" end="23" id="Q3778211" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="4955" sofa="1" begin="20" end="23" id="Q16889133" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="4962" sofa="1" begin="20" end="23" id="Q35120" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4969" sofa="1" begin="20" end="23" id="Q61961344" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="4976" sofa="1" begin="20" end="23" id="Q5127848" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4983" sofa="1" begin="20" end="23" id="Q2221906" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="4990" sofa="1" begin="20" end="23" id="Q7887142" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="4997" sofa="1" begin="20" end="23" id="Q6671777" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5004" sofa="1" begin="20" end="23" id="Q488383" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5011" sofa="1" begin="20" end="23" id="Q5371079" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5018" sofa="1" begin="20" end="23" id="Q1190554" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5025" sofa="1" begin="20" end="23" id="Q82794" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5032" sofa="1" begin="20" end="23" id="Q19953632" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5039" sofa="1" begin="20" end="23" id="Q937228" depth="14"/>
+    <wikidata:WikiDataHyponym xmi:id="5046" sofa="1" begin="20" end="23" id="Q27096213" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5053" sofa="1" begin="20" end="23" id="Q35120" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5060" sofa="1" begin="20" end="23" id="Q4393498" depth="13"/>
+    <wikidata:WikiDataHyponym xmi:id="5067" sofa="1" begin="20" end="23" id="Q3778211" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5074" sofa="1" begin="20" end="23" id="Q1786828" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5081" sofa="1" begin="20" end="23" id="Q61961344" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5088" sofa="1" begin="20" end="23" id="Q16686448" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5095" sofa="1" begin="20" end="23" id="Q2221906" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5102" sofa="1" begin="20" end="23" id="Q6671777" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5109" sofa="1" begin="20" end="23" id="Q155076" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5116" sofa="1" begin="20" end="23" id="Q7887142" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5123" sofa="1" begin="20" end="23" id="Q618123" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5130" sofa="1" begin="20" end="23" id="Q2145290" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="5137" sofa="1" begin="20" end="23" id="Q151885" depth="16"/>
+    <wikidata:WikiDataHyponym xmi:id="5144" sofa="1" begin="20" end="23" id="Q16887380" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5151" sofa="1" begin="20" end="23" id="Q82794" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5158" sofa="1" begin="20" end="23" id="Q16957" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="5165" sofa="1" begin="20" end="23" id="Q15916540" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5172" sofa="1" begin="20" end="23" id="Q27096213" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5179" sofa="1" begin="20" end="23" id="Q177634" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5186" sofa="1" begin="20" end="23" id="Q16334295" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5193" sofa="1" begin="20" end="23" id="Q16334295" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5200" sofa="1" begin="20" end="23" id="Q830077" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5207" sofa="1" begin="20" end="23" id="Q4330518" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5214" sofa="1" begin="20" end="23" id="Q16889133" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5221" sofa="1" begin="20" end="23" id="Q11028" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5228" sofa="1" begin="20" end="23" id="Q6256" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5235" sofa="1" begin="20" end="23" id="Q155076" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5242" sofa="1" begin="20" end="23" id="Q849866" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5249" sofa="1" begin="20" end="23" id="Q42848" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5256" sofa="1" begin="20" end="23" id="Q1496967" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5263" sofa="1" begin="20" end="23" id="Q714737" depth="15"/>
+    <wikidata:WikiDataHyponym xmi:id="5270" sofa="1" begin="20" end="23" id="Q618123" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5277" sofa="1" begin="20" end="23" id="Q58415929" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5284" sofa="1" begin="20" end="23" id="Q56061" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5291" sofa="1" begin="20" end="23" id="Q874405" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5298" sofa="1" begin="20" end="23" id="Q16334295" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5305" sofa="1" begin="20" end="23" id="Q192630" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5312" sofa="1" begin="20" end="23" id="Q4173967" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="5319" sofa="1" begin="20" end="23" id="Q17553950" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5326" sofa="1" begin="20" end="23" id="Q830077" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5333" sofa="1" begin="20" end="23" id="Q35120" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5340" sofa="1" begin="20" end="23" id="Q16877783" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="5347" sofa="1" begin="20" end="23" id="Q4330518" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5354" sofa="1" begin="20" end="23" id="Q11028" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5361" sofa="1" begin="20" end="23" id="Q20817253" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="5451" sofa="1" begin="79" end="99" id="Q8027727" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5458" sofa="1" begin="79" end="99" id="Q11372" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="5465" sofa="1" begin="79" end="99" id="Q336" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5472" sofa="1" begin="79" end="99" id="Q11028" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5479" sofa="1" begin="79" end="99" id="Q2329" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="5486" sofa="1" begin="79" end="99" id="Q9081" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5493" sofa="1" begin="79" end="99" id="Q7991" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5500" sofa="1" begin="79" end="99" id="Q488383" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5507" sofa="1" begin="79" end="99" id="Q14632398" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5514" sofa="1" begin="79" end="99" id="Q7184903" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5521" sofa="1" begin="79" end="99" id="Q35120" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5550" sofa="1" begin="115" end="149" id="Q189760" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5557" sofa="1" begin="115" end="149" id="Q1190554" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5564" sofa="1" begin="115" end="149" id="Q483247" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5571" sofa="1" begin="115" end="149" id="Q1190554" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5578" sofa="1" begin="115" end="149" id="Q1007356" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5585" sofa="1" begin="115" end="149" id="Q1076105" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5592" sofa="1" begin="115" end="149" id="Q602884" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5599" sofa="1" begin="115" end="149" id="Q1656682" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5606" sofa="1" begin="115" end="149" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5613" sofa="1" begin="115" end="149" id="Q40231" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5620" sofa="1" begin="115" end="149" id="Q35120" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5627" sofa="1" begin="115" end="149" id="Q16722960" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5634" sofa="1" begin="115" end="149" id="Q704648" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="5663" sofa="1" begin="174" end="190" id="Q702269" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5670" sofa="1" begin="174" end="190" id="Q795052" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5677" sofa="1" begin="174" end="190" id="Q82955" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5684" sofa="1" begin="174" end="190" id="Q9200127" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5691" sofa="1" begin="174" end="190" id="Q488383" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5698" sofa="1" begin="174" end="190" id="Q23958946" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5705" sofa="1" begin="174" end="190" id="Q215627" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5712" sofa="1" begin="174" end="190" id="Q830077" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5719" sofa="1" begin="174" end="190" id="Q35120" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5726" sofa="1" begin="174" end="190" id="Q4330518" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5733" sofa="1" begin="174" end="190" id="Q830077" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5740" sofa="1" begin="174" end="190" id="Q4175034" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5747" sofa="1" begin="174" end="190" id="Q18336849" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5754" sofa="1" begin="174" end="190" id="Q24229398" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5761" sofa="1" begin="174" end="190" id="Q486839" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="5768" sofa="1" begin="174" end="190" id="Q24229398" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5775" sofa="1" begin="174" end="190" id="Q327055" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5782" sofa="1" begin="174" end="190" id="Q82955" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5789" sofa="1" begin="174" end="190" id="Q488383" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5796" sofa="1" begin="174" end="190" id="Q23958946" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5803" sofa="1" begin="174" end="190" id="Q3778211" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5810" sofa="1" begin="174" end="190" id="Q35120" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5817" sofa="1" begin="174" end="190" id="Q1939555" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="5824" sofa="1" begin="174" end="190" id="Q7887142" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5831" sofa="1" begin="174" end="190" id="Q7184903" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="5838" sofa="1" begin="174" end="190" id="Q35120" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="5845" sofa="1" begin="174" end="190" id="Q2198779" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5883" sofa="1" begin="217" end="233" id="Q189760" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="5890" sofa="1" begin="217" end="233" id="Q35120" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="5897" sofa="1" begin="217" end="233" id="Q16722960" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5904" sofa="1" begin="217" end="233" id="Q40231" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="5911" sofa="1" begin="217" end="233" id="Q1190554" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5918" sofa="1" begin="217" end="233" id="Q35120" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5925" sofa="1" begin="217" end="233" id="Q1656682" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="5932" sofa="1" begin="217" end="233" id="Q1190554" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="5939" sofa="1" begin="217" end="233" id="Q483247" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="5946" sofa="1" begin="217" end="233" id="Q602884" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="5953" sofa="1" begin="217" end="233" id="Q1007356" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="5960" sofa="1" begin="217" end="233" id="Q1076105" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="5988" sofa="1" begin="253" end="262" id="Q56061" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="5995" sofa="1" begin="253" end="262" id="Q1496967" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6002" sofa="1" begin="253" end="262" id="Q618123" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6009" sofa="1" begin="253" end="262" id="Q82794" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6016" sofa="1" begin="253" end="262" id="Q15642541" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6023" sofa="1" begin="253" end="262" id="Q58415929" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6030" sofa="1" begin="253" end="262" id="Q27096213" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6037" sofa="1" begin="253" end="262" id="Q27096213" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6044" sofa="1" begin="253" end="262" id="Q35120" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6051" sofa="1" begin="253" end="262" id="Q58416391" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6058" sofa="1" begin="253" end="262" id="Q192611" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6065" sofa="1" begin="253" end="262" id="Q35120" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6072" sofa="1" begin="253" end="262" id="Q16686448" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6101" sofa="1" begin="277" end="291" id="Q1227621" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6120" sofa="1" begin="325" end="363" id="Q7184903" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="6127" sofa="1" begin="325" end="363" id="Q327333" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6134" sofa="1" begin="325" end="363" id="Q246672" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6141" sofa="1" begin="325" end="363" id="Q1006365" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6148" sofa="1" begin="325" end="363" id="Q488383" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="6155" sofa="1" begin="325" end="363" id="Q17519152" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6162" sofa="1" begin="325" end="363" id="Q488383" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6169" sofa="1" begin="325" end="363" id="Q16334298" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6176" sofa="1" begin="325" end="363" id="Q36161" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6183" sofa="1" begin="325" end="363" id="Q390066" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6190" sofa="1" begin="325" end="363" id="Q166020" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6197" sofa="1" begin="325" end="363" id="Q16889133" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6204" sofa="1" begin="325" end="363" id="Q16334295" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6211" sofa="1" begin="325" end="363" id="Q5127848" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6218" sofa="1" begin="325" end="363" id="Q17008256" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6225" sofa="1" begin="325" end="363" id="Q151885" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6232" sofa="1" begin="325" end="363" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6239" sofa="1" begin="325" end="363" id="Q217594" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6246" sofa="1" begin="325" end="363" id="Q7184903" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6253" sofa="1" begin="325" end="363" id="Q246672" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6260" sofa="1" begin="325" end="363" id="Q874405" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6267" sofa="1" begin="325" end="363" id="Q18844919" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6274" sofa="1" begin="325" end="363" id="Q16334295" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6281" sofa="1" begin="325" end="363" id="Q6671777" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6288" sofa="1" begin="325" end="363" id="Q192350" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6295" sofa="1" begin="325" end="363" id="Q896375" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6302" sofa="1" begin="325" end="363" id="Q43229" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6309" sofa="1" begin="325" end="363" id="Q35120" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6316" sofa="1" begin="325" end="363" id="Q16889133" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6357" sofa="1" begin="367" end="383" id="Q7184903" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6364" sofa="1" begin="367" end="383" id="Q246672" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6371" sofa="1" begin="367" end="383" id="Q560584" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6378" sofa="1" begin="367" end="383" id="Q217594" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6385" sofa="1" begin="367" end="383" id="Q874405" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6392" sofa="1" begin="367" end="383" id="Q16334295" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6399" sofa="1" begin="367" end="383" id="Q18844919" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6406" sofa="1" begin="367" end="383" id="Q16889133" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6413" sofa="1" begin="367" end="383" id="Q16334295" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6420" sofa="1" begin="367" end="383" id="Q7210356" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6427" sofa="1" begin="367" end="383" id="Q43229" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6434" sofa="1" begin="367" end="383" id="Q6671777" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6441" sofa="1" begin="367" end="383" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6448" sofa="1" begin="367" end="383" id="Q7184903" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6455" sofa="1" begin="367" end="383" id="Q35798" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6462" sofa="1" begin="367" end="383" id="Q246672" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6469" sofa="1" begin="367" end="383" id="Q17519152" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6476" sofa="1" begin="367" end="383" id="Q390066" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6483" sofa="1" begin="367" end="383" id="Q36161" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6490" sofa="1" begin="367" end="383" id="Q488383" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6497" sofa="1" begin="367" end="383" id="Q16334298" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6504" sofa="1" begin="367" end="383" id="Q488383" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6511" sofa="1" begin="367" end="383" id="Q16889133" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6518" sofa="1" begin="367" end="383" id="Q17008256" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6525" sofa="1" begin="367" end="383" id="Q5127848" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6532" sofa="1" begin="367" end="383" id="Q640506" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6539" sofa="1" begin="367" end="383" id="Q151885" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6546" sofa="1" begin="367" end="383" id="Q35120" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6586" sofa="1" begin="406" end="468" id="Q7184903" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="6593" sofa="1" begin="406" end="468" id="Q327333" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6600" sofa="1" begin="406" end="468" id="Q246672" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6607" sofa="1" begin="406" end="468" id="Q1006365" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6614" sofa="1" begin="406" end="468" id="Q488383" depth="12"/>
+    <wikidata:WikiDataHyponym xmi:id="6621" sofa="1" begin="406" end="468" id="Q17519152" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6628" sofa="1" begin="406" end="468" id="Q488383" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6635" sofa="1" begin="406" end="468" id="Q16334298" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6642" sofa="1" begin="406" end="468" id="Q36161" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6649" sofa="1" begin="406" end="468" id="Q390066" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6656" sofa="1" begin="406" end="468" id="Q16889133" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6663" sofa="1" begin="406" end="468" id="Q16334295" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6670" sofa="1" begin="406" end="468" id="Q493344" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6677" sofa="1" begin="406" end="468" id="Q5127848" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6684" sofa="1" begin="406" end="468" id="Q17008256" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6691" sofa="1" begin="406" end="468" id="Q151885" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6698" sofa="1" begin="406" end="468" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6705" sofa="1" begin="406" end="468" id="Q217594" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6712" sofa="1" begin="406" end="468" id="Q7184903" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6719" sofa="1" begin="406" end="468" id="Q246672" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6726" sofa="1" begin="406" end="468" id="Q874405" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6733" sofa="1" begin="406" end="468" id="Q18844919" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6740" sofa="1" begin="406" end="468" id="Q16334295" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6747" sofa="1" begin="406" end="468" id="Q6671777" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6754" sofa="1" begin="406" end="468" id="Q192350" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6761" sofa="1" begin="406" end="468" id="Q896375" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6768" sofa="1" begin="406" end="468" id="Q43229" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6775" sofa="1" begin="406" end="468" id="Q35120" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6782" sofa="1" begin="406" end="468" id="Q16889133" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6823" sofa="1" begin="472" end="487" id="Q7184903" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6830" sofa="1" begin="472" end="487" id="Q246672" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6837" sofa="1" begin="472" end="487" id="Q217594" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6844" sofa="1" begin="472" end="487" id="Q874405" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6851" sofa="1" begin="472" end="487" id="Q16334295" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="6858" sofa="1" begin="472" end="487" id="Q18844919" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6865" sofa="1" begin="472" end="487" id="Q16889133" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6872" sofa="1" begin="472" end="487" id="Q16334295" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6879" sofa="1" begin="472" end="487" id="Q7210356" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="6886" sofa="1" begin="472" end="487" id="Q43229" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="6893" sofa="1" begin="472" end="487" id="Q6671777" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6900" sofa="1" begin="472" end="487" id="Q560590" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="6907" sofa="1" begin="472" end="487" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="6914" sofa="1" begin="472" end="487" id="Q7184903" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6921" sofa="1" begin="472" end="487" id="Q35798" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="6928" sofa="1" begin="472" end="487" id="Q246672" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6935" sofa="1" begin="472" end="487" id="Q17519152" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="6942" sofa="1" begin="472" end="487" id="Q390066" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6949" sofa="1" begin="472" end="487" id="Q36161" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6956" sofa="1" begin="472" end="487" id="Q488383" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="6963" sofa="1" begin="472" end="487" id="Q16334298" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="6970" sofa="1" begin="472" end="487" id="Q488383" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6977" sofa="1" begin="472" end="487" id="Q16889133" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="6984" sofa="1" begin="472" end="487" id="Q17008256" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="6991" sofa="1" begin="472" end="487" id="Q5127848" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="6998" sofa="1" begin="472" end="487" id="Q640506" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="7005" sofa="1" begin="472" end="487" id="Q151885" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7012" sofa="1" begin="472" end="487" id="Q35120" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7052" sofa="1" begin="516" end="534" id="Q702269" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7059" sofa="1" begin="516" end="534" id="Q43845" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7066" sofa="1" begin="516" end="534" id="Q25713832" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="7073" sofa="1" begin="516" end="534" id="Q1190554" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7080" sofa="1" begin="516" end="534" id="Q24229398" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7087" sofa="1" begin="516" end="534" id="Q327055" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="7094" sofa="1" begin="516" end="534" id="Q82955" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="7101" sofa="1" begin="516" end="534" id="Q937228" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="7108" sofa="1" begin="516" end="534" id="Q488383" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7115" sofa="1" begin="516" end="534" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7122" sofa="1" begin="516" end="534" id="Q2198779" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7129" sofa="1" begin="516" end="534" id="Q4393498" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7136" sofa="1" begin="516" end="534" id="Q35120" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7143" sofa="1" begin="516" end="534" id="Q9332" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7150" sofa="1" begin="516" end="534" id="Q978044" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="7157" sofa="1" begin="516" end="534" id="Q7887142" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7164" sofa="1" begin="516" end="534" id="Q1553195" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="7171" sofa="1" begin="516" end="534" id="Q7184903" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7178" sofa="1" begin="516" end="534" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7185" sofa="1" begin="516" end="534" id="Q702269" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="7192" sofa="1" begin="516" end="534" id="Q7184903" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7199" sofa="1" begin="516" end="534" id="Q488383" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7206" sofa="1" begin="516" end="534" id="Q937228" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7213" sofa="1" begin="516" end="534" id="Q795052" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7220" sofa="1" begin="516" end="534" id="Q58415929" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7227" sofa="1" begin="516" end="534" id="Q2145290" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7234" sofa="1" begin="516" end="534" id="Q714737" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7241" sofa="1" begin="516" end="534" id="Q26907166" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7248" sofa="1" begin="516" end="534" id="Q140686" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="7255" sofa="1" begin="516" end="534" id="Q23958946" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7262" sofa="1" begin="516" end="534" id="Q4164871" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7269" sofa="1" begin="516" end="534" id="Q830077" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7276" sofa="1" begin="516" end="534" id="Q215627" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7283" sofa="1" begin="516" end="534" id="Q4897819" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7290" sofa="1" begin="516" end="534" id="Q35120" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7297" sofa="1" begin="516" end="534" id="Q214339" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7304" sofa="1" begin="516" end="534" id="Q4330518" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7311" sofa="1" begin="516" end="534" id="Q12737077" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7318" sofa="1" begin="516" end="534" id="Q1207505" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7325" sofa="1" begin="516" end="534" id="Q3769299" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7332" sofa="1" begin="516" end="534" id="Q28640" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7339" sofa="1" begin="516" end="534" id="Q1914636" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7346" sofa="1" begin="516" end="534" id="Q151885" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7353" sofa="1" begin="516" end="534" id="Q1914636" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7360" sofa="1" begin="516" end="534" id="Q18336849" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7415" sofa="1" begin="539" end="545" id="Q246672" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7422" sofa="1" begin="539" end="545" id="Q217594" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7429" sofa="1" begin="539" end="545" id="Q874405" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="7436" sofa="1" begin="539" end="545" id="Q16334295" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="7443" sofa="1" begin="539" end="545" id="Q7210356" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="7450" sofa="1" begin="539" end="545" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7457" sofa="1" begin="539" end="545" id="Q18844919" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7464" sofa="1" begin="539" end="545" id="Q16889133" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7471" sofa="1" begin="539" end="545" id="Q6671777" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7478" sofa="1" begin="539" end="545" id="Q7184903" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7485" sofa="1" begin="539" end="545" id="Q43229" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="7492" sofa="1" begin="539" end="545" id="Q488383" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7499" sofa="1" begin="539" end="545" id="Q246672" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7506" sofa="1" begin="539" end="545" id="Q17519152" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7513" sofa="1" begin="539" end="545" id="Q16334298" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7520" sofa="1" begin="539" end="545" id="Q36161" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7527" sofa="1" begin="539" end="545" id="Q390066" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7534" sofa="1" begin="539" end="545" id="Q7278" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="7541" sofa="1" begin="539" end="545" id="Q16334295" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7548" sofa="1" begin="539" end="545" id="Q488383" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7555" sofa="1" begin="539" end="545" id="Q35120" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7562" sofa="1" begin="539" end="545" id="Q17008256" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7569" sofa="1" begin="539" end="545" id="Q16889133" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7576" sofa="1" begin="539" end="545" id="Q5127848" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7583" sofa="1" begin="539" end="545" id="Q7184903" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7590" sofa="1" begin="539" end="545" id="Q151885" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7628" sofa="1" begin="563" end="580" id="Q795052" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7635" sofa="1" begin="563" end="580" id="Q702269" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7642" sofa="1" begin="563" end="580" id="Q43845" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7649" sofa="1" begin="563" end="580" id="Q7184903" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7656" sofa="1" begin="563" end="580" id="Q25713832" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="7663" sofa="1" begin="563" end="580" id="Q1190554" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7670" sofa="1" begin="563" end="580" id="Q488383" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7677" sofa="1" begin="563" end="580" id="Q937228" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="7684" sofa="1" begin="563" end="580" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7691" sofa="1" begin="563" end="580" id="Q215627" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7698" sofa="1" begin="563" end="580" id="Q4393498" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7705" sofa="1" begin="563" end="580" id="Q4330518" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7712" sofa="1" begin="563" end="580" id="Q9332" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7719" sofa="1" begin="563" end="580" id="Q6501749" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="7726" sofa="1" begin="563" end="580" id="Q978044" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="7733" sofa="1" begin="563" end="580" id="Q830077" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7740" sofa="1" begin="563" end="580" id="Q7184903" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7747" sofa="1" begin="563" end="580" id="Q18336849" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7754" sofa="1" begin="563" end="580" id="Q35120" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7761" sofa="1" begin="563" end="580" id="Q937228" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7768" sofa="1" begin="563" end="580" id="Q24229398" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7775" sofa="1" begin="563" end="580" id="Q58415929" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7782" sofa="1" begin="563" end="580" id="Q2145290" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7789" sofa="1" begin="563" end="580" id="Q327055" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7796" sofa="1" begin="563" end="580" id="Q714737" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7803" sofa="1" begin="563" end="580" id="Q26907166" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7810" sofa="1" begin="563" end="580" id="Q140686" depth="0"/>
+    <wikidata:WikiDataHyponym xmi:id="7817" sofa="1" begin="563" end="580" id="Q4164871" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="7824" sofa="1" begin="563" end="580" id="Q23958946" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7831" sofa="1" begin="563" end="580" id="Q4897819" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7838" sofa="1" begin="563" end="580" id="Q214339" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7845" sofa="1" begin="563" end="580" id="Q12737077" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="7852" sofa="1" begin="563" end="580" id="Q1207505" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="7859" sofa="1" begin="563" end="580" id="Q3769299" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7866" sofa="1" begin="563" end="580" id="Q28640" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="7873" sofa="1" begin="563" end="580" id="Q1914636" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7880" sofa="1" begin="563" end="580" id="Q35120" depth="11"/>
+    <wikidata:WikiDataHyponym xmi:id="7887" sofa="1" begin="563" end="580" id="Q151885" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7894" sofa="1" begin="563" end="580" id="Q2198779" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7901" sofa="1" begin="563" end="580" id="Q1914636" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7908" sofa="1" begin="563" end="580" id="Q7887142" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7915" sofa="1" begin="563" end="580" id="Q35120" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="7969" sofa="1" begin="585" end="588" id="Q7184903" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="7976" sofa="1" begin="585" end="588" id="Q246672" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="7983" sofa="1" begin="585" end="588" id="Q49762" depth="-1"/>
+    <wikidata:WikiDataHyponym xmi:id="7990" sofa="1" begin="585" end="588" id="Q390066" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="7997" sofa="1" begin="585" end="588" id="Q17519152" depth="5"/>
+    <wikidata:WikiDataHyponym xmi:id="8004" sofa="1" begin="585" end="588" id="Q36161" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="8011" sofa="1" begin="585" end="588" id="Q16334295" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="8018" sofa="1" begin="585" end="588" id="Q488383" depth="10"/>
+    <wikidata:WikiDataHyponym xmi:id="8025" sofa="1" begin="585" end="588" id="Q488383" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="8032" sofa="1" begin="585" end="588" id="Q16334298" depth="4"/>
+    <wikidata:WikiDataHyponym xmi:id="8039" sofa="1" begin="585" end="588" id="Q35120" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="8046" sofa="1" begin="585" end="588" id="Q16889133" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="8053" sofa="1" begin="585" end="588" id="Q17008256" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="8060" sofa="1" begin="585" end="588" id="Q5127848" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="8067" sofa="1" begin="585" end="588" id="Q151885" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="8074" sofa="1" begin="585" end="588" id="Q7184903" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="8081" sofa="1" begin="585" end="588" id="Q217594" depth="8"/>
+    <wikidata:WikiDataHyponym xmi:id="8088" sofa="1" begin="585" end="588" id="Q246672" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="8095" sofa="1" begin="585" end="588" id="Q874405" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="8102" sofa="1" begin="585" end="588" id="Q16334295" depth="3"/>
+    <wikidata:WikiDataHyponym xmi:id="8109" sofa="1" begin="585" end="588" id="Q7278" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="8116" sofa="1" begin="585" end="588" id="Q18844919" depth="6"/>
+    <wikidata:WikiDataHyponym xmi:id="8123" sofa="1" begin="585" end="588" id="Q2257409" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="8130" sofa="1" begin="585" end="588" id="Q7210356" depth="1"/>
+    <wikidata:WikiDataHyponym xmi:id="8137" sofa="1" begin="585" end="588" id="Q16889133" depth="9"/>
+    <wikidata:WikiDataHyponym xmi:id="8144" sofa="1" begin="585" end="588" id="Q43229" depth="2"/>
+    <wikidata:WikiDataHyponym xmi:id="8151" sofa="1" begin="585" end="588" id="Q6671777" depth="7"/>
+    <wikidata:WikiDataHyponym xmi:id="8158" sofa="1" begin="585" end="588" id="Q35120" depth="9"/>
+    <wikipedia:WikipediaLink xmi:id="4280" sofa="1" begin="0" end="6" LinkType="internal" Target="Angela_Merkel" WikiData="Q567" isInstance="true">
+        <WikiDataHyponyms>Q154954</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4330518</WikiDataHyponyms>
+        <WikiDataHyponyms>Q215627</WikiDataHyponyms>
+        <WikiDataHyponyms>Q830077</WikiDataHyponyms>
+        <WikiDataHyponyms>Q795052</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3778211</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7887142</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18336849</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q23958946</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2198779</WikiDataHyponyms>
+        <WikiDataHyponyms>Q26720107</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q24229398</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="4476" sofa="1" begin="20" end="23" LinkType="internal" Target="Deutsche_Demokratische_Republik" WikiData="Q16957" isInstance="true">
+        <WikiDataHyponyms>Q1496967</WikiDataHyponyms>
+        <WikiDataHyponyms>Q27096213</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16887380</WikiDataHyponyms>
+        <WikiDataHyponyms>Q61961344</WikiDataHyponyms>
+        <WikiDataHyponyms>Q937228</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q618123</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2145290</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16877783</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q108163</WikiDataHyponyms>
+        <WikiDataHyponyms>Q155076</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58778</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2198779</WikiDataHyponyms>
+        <WikiDataHyponyms>Q24229398</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16686448</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+        <WikiDataHyponyms>Q177634</WikiDataHyponyms>
+        <WikiDataHyponyms>Q19829125</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3024240</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q830077</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5371079</WikiDataHyponyms>
+        <WikiDataHyponyms>Q11028</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7887142</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1190554</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4393498</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4173967</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1786828</WikiDataHyponyms>
+        <WikiDataHyponyms>Q325261</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17553950</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58415929</WikiDataHyponyms>
+        <WikiDataHyponyms>Q15642541</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1207505</WikiDataHyponyms>
+        <WikiDataHyponyms>Q82794</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7275</WikiDataHyponyms>
+        <WikiDataHyponyms>Q56061</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2221906</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2684591</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1048835</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4406616</WikiDataHyponyms>
+        <WikiDataHyponyms>Q517966</WikiDataHyponyms>
+        <WikiDataHyponyms>Q19953632</WikiDataHyponyms>
+        <WikiDataHyponyms>Q15893266</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4330518</WikiDataHyponyms>
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q42848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q19832712</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1151405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3778211</WikiDataHyponyms>
+        <WikiDataHyponyms>Q20817253</WikiDataHyponyms>
+        <WikiDataHyponyms>Q41796</WikiDataHyponyms>
+        <WikiDataHyponyms>Q192630</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58416391</WikiDataHyponyms>
+        <WikiDataHyponyms>Q714737</WikiDataHyponyms>
+        <WikiDataHyponyms>Q29651519</WikiDataHyponyms>
+        <WikiDataHyponyms>Q26907166</WikiDataHyponyms>
+        <WikiDataHyponyms>Q15916540</WikiDataHyponyms>
+        <WikiDataHyponyms>Q849866</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q183046</WikiDataHyponyms>
+        <WikiDataHyponyms>Q188572</WikiDataHyponyms>
+        <WikiDataHyponyms>Q23958946</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4204519</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="5441" sofa="1" begin="79" end="99" LinkType="internal" Target="Physikalische_Chemie" WikiData="Q11372" isInstance="false">
+        <WikiDataHyponyms>Q336</WikiDataHyponyms>
+        <WikiDataHyponyms>Q8027727</WikiDataHyponyms>
+        <WikiDataHyponyms>Q9081</WikiDataHyponyms>
+        <WikiDataHyponyms>Q14632398</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7991</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2329</WikiDataHyponyms>
+        <WikiDataHyponyms>Q11028</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="5540" sofa="1" begin="115" end="149" LinkType="internal" Target="Bundestagswahl_1990" WikiData="Q704648" isInstance="true">
+        <WikiDataHyponyms>Q16722960</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1656682</WikiDataHyponyms>
+        <WikiDataHyponyms>Q189760</WikiDataHyponyms>
+        <WikiDataHyponyms>Q483247</WikiDataHyponyms>
+        <WikiDataHyponyms>Q602884</WikiDataHyponyms>
+        <WikiDataHyponyms>Q40231</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1007356</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1190554</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1076105</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="5653" sofa="1" begin="174" end="190" LinkType="internal" Target="Mitglied_des_Deutschen_Bundestages" WikiData="Q1939555" isInstance="false">
+        <WikiDataHyponyms>Q215627</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4330518</WikiDataHyponyms>
+        <WikiDataHyponyms>Q830077</WikiDataHyponyms>
+        <WikiDataHyponyms>Q702269</WikiDataHyponyms>
+        <WikiDataHyponyms>Q9200127</WikiDataHyponyms>
+        <WikiDataHyponyms>Q795052</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3778211</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4175034</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7887142</WikiDataHyponyms>
+        <WikiDataHyponyms>Q82955</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18336849</WikiDataHyponyms>
+        <WikiDataHyponyms>Q327055</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q23958946</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2198779</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q486839</WikiDataHyponyms>
+        <WikiDataHyponyms>Q24229398</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="5873" sofa="1" begin="217" end="233" LinkType="internal" Target="Bundestagswahl" WikiData="Q1007356" isInstance="false">
+        <WikiDataHyponyms>Q16722960</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1656682</WikiDataHyponyms>
+        <WikiDataHyponyms>Q189760</WikiDataHyponyms>
+        <WikiDataHyponyms>Q483247</WikiDataHyponyms>
+        <WikiDataHyponyms>Q602884</WikiDataHyponyms>
+        <WikiDataHyponyms>Q40231</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1190554</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1076105</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="5978" sofa="1" begin="253" end="262" LinkType="internal" Target="Wahlkreis" WikiData="Q192611" isInstance="false">
+        <WikiDataHyponyms>Q1496967</WikiDataHyponyms>
+        <WikiDataHyponyms>Q27096213</WikiDataHyponyms>
+        <WikiDataHyponyms>Q82794</WikiDataHyponyms>
+        <WikiDataHyponyms>Q56061</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58415929</WikiDataHyponyms>
+        <WikiDataHyponyms>Q15642541</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58416391</WikiDataHyponyms>
+        <WikiDataHyponyms>Q618123</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16686448</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="6091" sofa="1" begin="277" end="291" LinkType="internal" Target="Direktmandat" WikiData="Q1227621" WikiDataHyponyms="" isInstance="true"/>
+    <wikipedia:WikipediaLink xmi:id="6110" sofa="1" begin="325" end="363" LinkType="internal" Target="Bundesministerium_für_Familie,_Senioren,_Frauen_und_Jugend" WikiData="Q166020" isInstance="true">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q192350</WikiDataHyponyms>
+        <WikiDataHyponyms>Q896375</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1006365</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q327333</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="6347" sofa="1" begin="367" end="383" LinkType="internal" Target="Kabinett_Kohl_IV" WikiData="Q560584" isInstance="true">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35798</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q640506</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7210356</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="6576" sofa="1" begin="406" end="468" LinkType="internal" Target="Bundesministerium_für_Umwelt,_Naturschutz,_Bau_und_Reaktorsicherheit" WikiData="Q493344" isInstance="true">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q192350</WikiDataHyponyms>
+        <WikiDataHyponyms>Q896375</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1006365</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q327333</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="6813" sofa="1" begin="472" end="487" LinkType="internal" Target="Kabinett_Kohl_V" WikiData="Q560590" isInstance="true">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35798</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q640506</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7210356</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="7042" sofa="1" begin="516" end="534" LinkType="internal" Target="Parteivorsitzender" WikiData="Q1553195" isInstance="false">
+        <WikiDataHyponyms>Q215627</WikiDataHyponyms>
+        <WikiDataHyponyms>Q214339</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1207505</WikiDataHyponyms>
+        <WikiDataHyponyms>Q702269</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4897819</WikiDataHyponyms>
+        <WikiDataHyponyms>Q25713832</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43845</WikiDataHyponyms>
+        <WikiDataHyponyms>Q795052</WikiDataHyponyms>
+        <WikiDataHyponyms>Q937228</WikiDataHyponyms>
+        <WikiDataHyponyms>Q82955</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2145290</WikiDataHyponyms>
+        <WikiDataHyponyms>Q140686</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3769299</WikiDataHyponyms>
+        <WikiDataHyponyms>Q327055</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18336849</WikiDataHyponyms>
+        <WikiDataHyponyms>Q978044</WikiDataHyponyms>
+        <WikiDataHyponyms>Q9332</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2198779</WikiDataHyponyms>
+        <WikiDataHyponyms>Q24229398</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4330518</WikiDataHyponyms>
+        <WikiDataHyponyms>Q830077</WikiDataHyponyms>
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1914636</WikiDataHyponyms>
+        <WikiDataHyponyms>Q28640</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7887142</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1190554</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4393498</WikiDataHyponyms>
+        <WikiDataHyponyms>Q714737</WikiDataHyponyms>
+        <WikiDataHyponyms>Q26907166</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4164871</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58415929</WikiDataHyponyms>
+        <WikiDataHyponyms>Q23958946</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q12737077</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="7405" sofa="1" begin="539" end="545" LinkType="internal" Target="Politische_Partei" WikiData="Q7278" isInstance="false">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7210356</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="7618" sofa="1" begin="563" end="580" LinkType="internal" Target="Generalsekretär" WikiData="Q6501749" isInstance="false">
+        <WikiDataHyponyms>Q215627</WikiDataHyponyms>
+        <WikiDataHyponyms>Q214339</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1207505</WikiDataHyponyms>
+        <WikiDataHyponyms>Q702269</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4897819</WikiDataHyponyms>
+        <WikiDataHyponyms>Q25713832</WikiDataHyponyms>
+        <WikiDataHyponyms>Q795052</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43845</WikiDataHyponyms>
+        <WikiDataHyponyms>Q937228</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2145290</WikiDataHyponyms>
+        <WikiDataHyponyms>Q140686</WikiDataHyponyms>
+        <WikiDataHyponyms>Q3769299</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18336849</WikiDataHyponyms>
+        <WikiDataHyponyms>Q327055</WikiDataHyponyms>
+        <WikiDataHyponyms>Q978044</WikiDataHyponyms>
+        <WikiDataHyponyms>Q9332</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2198779</WikiDataHyponyms>
+        <WikiDataHyponyms>Q24229398</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4330518</WikiDataHyponyms>
+        <WikiDataHyponyms>Q830077</WikiDataHyponyms>
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1914636</WikiDataHyponyms>
+        <WikiDataHyponyms>Q28640</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7887142</WikiDataHyponyms>
+        <WikiDataHyponyms>Q1190554</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4393498</WikiDataHyponyms>
+        <WikiDataHyponyms>Q714737</WikiDataHyponyms>
+        <WikiDataHyponyms>Q26907166</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q4164871</WikiDataHyponyms>
+        <WikiDataHyponyms>Q58415929</WikiDataHyponyms>
+        <WikiDataHyponyms>Q23958946</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q12737077</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <wikipedia:WikipediaLink xmi:id="7959" sofa="1" begin="585" end="588" LinkType="internal" Target="Christlich_Demokratische_Union_Deutschlands" WikiData="Q49762" isInstance="true">
+        <WikiDataHyponyms>Q151885</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7278</WikiDataHyponyms>
+        <WikiDataHyponyms>Q18844919</WikiDataHyponyms>
+        <WikiDataHyponyms>Q43229</WikiDataHyponyms>
+        <WikiDataHyponyms>Q2257409</WikiDataHyponyms>
+        <WikiDataHyponyms>Q5127848</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334298</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17008256</WikiDataHyponyms>
+        <WikiDataHyponyms>Q390066</WikiDataHyponyms>
+        <WikiDataHyponyms>Q246672</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16334295</WikiDataHyponyms>
+        <WikiDataHyponyms>Q488383</WikiDataHyponyms>
+        <WikiDataHyponyms>Q874405</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7184903</WikiDataHyponyms>
+        <WikiDataHyponyms>Q36161</WikiDataHyponyms>
+        <WikiDataHyponyms>Q7210356</WikiDataHyponyms>
+        <WikiDataHyponyms>Q35120</WikiDataHyponyms>
+        <WikiDataHyponyms>Q17519152</WikiDataHyponyms>
+        <WikiDataHyponyms>Q16889133</WikiDataHyponyms>
+        <WikiDataHyponyms>Q217594</WikiDataHyponyms>
+        <WikiDataHyponyms>Q6671777</WikiDataHyponyms>
+    </wikipedia:WikipediaLink>
+    <type16:Person_HumanBeing xmi:id="8236" sofa="1" begin="0" end="6" value="http://www.wikidata.org/entity/Q567" metaphor="false" metonym="false"/>
+    <type16:Location_Place xmi:id="8244" sofa="1" begin="20" end="23" value="http://www.wikidata.org/entity/Q16957" metaphor="false" metonym="false"/>
+    <concept:Cognition_Ideation xmi:id="8220" sofa="1" begin="79" end="99" value="http://www.wikidata.org/entity/Q11372" specific="false" metaphor="false" metonym="false"/>
+    <concept:Cognition_Ideation xmi:id="8228" sofa="1" begin="79" end="99" value="http://www.wikidata.org/entity/Q11372" specific="false" metaphor="false" metonym="false"/>
+    <concept:Cognition_Ideation xmi:id="8252" sofa="1" begin="79" end="99" value="http://www.wikidata.org/entity/Q11372" specific="false" metaphor="false" metonym="false"/>
+    <concept:Cognition_Ideation xmi:id="8260" sofa="1" begin="79" end="99" value="http://www.wikidata.org/entity/Q11372" specific="false" metaphor="false" metonym="false"/>
+    <type16:Event_Happening xmi:id="8364" sofa="1" begin="115" end="149" value="http://www.wikidata.org/entity/Q704648" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8316" sofa="1" begin="174" end="190" value="http://www.wikidata.org/entity/Q1939555" specific="false" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8372" sofa="1" begin="174" end="190" value="http://www.wikidata.org/entity/Q1939555" specific="false" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8596" sofa="1" begin="516" end="534" value="http://www.wikidata.org/entity/Q1553195" specific="false" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8804" sofa="1" begin="516" end="534" value="http://www.wikidata.org/entity/Q1553195" specific="false" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8612" sofa="1" begin="563" end="580" value="http://www.wikidata.org/entity/Q6501749" specific="false" metaphor="false" metonym="false"/>
+    <concept:Person_HumanBeing xmi:id="8820" sofa="1" begin="563" end="580" value="http://www.wikidata.org/entity/Q6501749" specific="false" metaphor="false" metonym="false"/>
+    <concept:Event_Happening xmi:id="8380" sofa="1" begin="217" end="233" value="http://www.wikidata.org/entity/Q1007356" specific="false" metaphor="false" metonym="false"/>
+    <concept:Event_Happening xmi:id="8636" sofa="1" begin="217" end="233" value="http://www.wikidata.org/entity/Q1007356" specific="false" metaphor="false" metonym="false"/>
+    <concept:Location_Place xmi:id="8388" sofa="1" begin="253" end="262" value="http://www.wikidata.org/entity/Q192611" specific="false" metaphor="false" metonym="false"/>
+    <concept:Location_Place xmi:id="8644" sofa="1" begin="253" end="262" value="http://www.wikidata.org/entity/Q192611" specific="false" metaphor="false" metonym="false"/>
+    <type16:Time xmi:id="8396" sofa="1" begin="300" end="304" value="Time" metaphor="false" metonym="false"/>
+    <type16:Time xmi:id="8404" sofa="1" begin="309" end="313" value="Time" metaphor="false" metonym="false"/>
+    <type16:Time xmi:id="8500" sofa="1" begin="392" end="396" value="Time" metaphor="false" metonym="false"/>
+    <type16:Time xmi:id="8982" sofa="1" begin="401" end="405" metaphor="false" metonym="false"/>
+    <type16:Time xmi:id="8588" sofa="1" begin="489" end="493" value="Time" metaphor="false" metonym="false"/>
+    <type16:Group_Collection xmi:id="8692" sofa="1" begin="325" end="363" value="http://www.wikidata.org/entity/Q166020" metaphor="false" metonym="false"/>
+    <type16:Group_Collection xmi:id="8716" sofa="1" begin="367" end="383" value="http://www.wikidata.org/entity/Q560584" metaphor="false" metonym="false"/>
+    <type16:Group_Collection xmi:id="8772" sofa="1" begin="406" end="468" value="http://www.wikidata.org/entity/Q493344" metaphor="false" metonym="false"/>
+    <type16:Group_Collection xmi:id="8796" sofa="1" begin="472" end="487" value="http://www.wikidata.org/entity/Q560590" metaphor="false" metonym="false"/>
+    <type16:Group_Collection xmi:id="8828" sofa="1" begin="585" end="588" value="http://www.wikidata.org/entity/Q49762" metaphor="false" metonym="false"/>
+    <concept:Group_Collection xmi:id="8604" sofa="1" begin="539" end="545" value="http://www.wikidata.org/entity/Q7278" specific="false" metaphor="false" metonym="false"/>
+    <concept:Group_Collection xmi:id="8812" sofa="1" begin="539" end="545" value="http://www.wikidata.org/entity/Q7278" specific="false" metaphor="false" metonym="false"/>
+    <type16:Other xmi:id="8926" sofa="1" begin="318" end="324" metaphor="false" metonym="false"/>
+    <cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Merkel wuchs in der DDR auf und war dort als Physikerin am Zentralinstitut für Physikalische Chemie tätig. Bei der Bundestagswahl am 2. Dezember 1990 errang sie erstmals ein Bundestagsmandat. Bei den folgenden sieben Bundestagswahlen wurde sie in ihrem Wahlkreis in Vorpommern direkt gewählt.[2] Von 1991 bis 1994 war Merkel Bundesministerin für Frauen und Jugend im Kabinett Kohl IV und von 1994 bis 1998 Bundesministerin für Umwelt, Naturschutz und Reaktorsicherheit im Kabinett Kohl V. 1998 bis zu ihrer Wahl zur Bundesvorsitzenden der Partei amtierte sie als Generalsekretärin der CDU."/>
+    <type4:TagDescription xmi:id="1243" name="$,"/>
+    <type4:TagDescription xmi:id="1245" name="$."/>
+    <type4:TagDescription xmi:id="1247" name="$["/>
+    <type4:TagDescription xmi:id="1249" name=".$$."/>
+    <type4:TagDescription xmi:id="1251" name="ADJA"/>
+    <type4:TagDescription xmi:id="1253" name="ADJD"/>
+    <type4:TagDescription xmi:id="1255" name="ADV"/>
+    <type4:TagDescription xmi:id="1257" name="APPO"/>
+    <type4:TagDescription xmi:id="1259" name="APPR"/>
+    <type4:TagDescription xmi:id="1261" name="APPRART"/>
+    <type4:TagDescription xmi:id="1263" name="APZR"/>
+    <type4:TagDescription xmi:id="1265" name="ART"/>
+    <type4:TagDescription xmi:id="1267" name="CARD"/>
+    <type4:TagDescription xmi:id="1269" name="FM"/>
+    <type4:TagDescription xmi:id="1271" name="ITJ"/>
+    <type4:TagDescription xmi:id="1273" name="KOKOM"/>
+    <type4:TagDescription xmi:id="1275" name="KON"/>
+    <type4:TagDescription xmi:id="1277" name="KOUI"/>
+    <type4:TagDescription xmi:id="1279" name="KOUS"/>
+    <type4:TagDescription xmi:id="1281" name="NE"/>
+    <type4:TagDescription xmi:id="1283" name="NN"/>
+    <type4:TagDescription xmi:id="1285" name="PDAT"/>
+    <type4:TagDescription xmi:id="1287" name="PDS"/>
+    <type4:TagDescription xmi:id="1289" name="PIAT"/>
+    <type4:TagDescription xmi:id="1291" name="PIDAT"/>
+    <type4:TagDescription xmi:id="1293" name="PIS"/>
+    <type4:TagDescription xmi:id="1295" name="PPER"/>
+    <type4:TagDescription xmi:id="1297" name="PPOSAT"/>
+    <type4:TagDescription xmi:id="1299" name="PPOSS"/>
+    <type4:TagDescription xmi:id="1301" name="PRELAT"/>
+    <type4:TagDescription xmi:id="1303" name="PRELS"/>
+    <type4:TagDescription xmi:id="1305" name="PRF"/>
+    <type4:TagDescription xmi:id="1307" name="PROAV"/>
+    <type4:TagDescription xmi:id="1309" name="PTKA"/>
+    <type4:TagDescription xmi:id="1311" name="PTKANT"/>
+    <type4:TagDescription xmi:id="1313" name="PTKNEG"/>
+    <type4:TagDescription xmi:id="1315" name="PTKVZ"/>
+    <type4:TagDescription xmi:id="1317" name="PTKZU"/>
+    <type4:TagDescription xmi:id="1319" name="PWAT"/>
+    <type4:TagDescription xmi:id="1321" name="PWAV"/>
+    <type4:TagDescription xmi:id="1323" name="PWS"/>
+    <type4:TagDescription xmi:id="1325" name="TRUNC"/>
+    <type4:TagDescription xmi:id="1327" name="VAFIN"/>
+    <type4:TagDescription xmi:id="1329" name="VAIMP"/>
+    <type4:TagDescription xmi:id="1331" name="VAINF"/>
+    <type4:TagDescription xmi:id="1333" name="VAPP"/>
+    <type4:TagDescription xmi:id="1335" name="VMFIN"/>
+    <type4:TagDescription xmi:id="1337" name="VMINF"/>
+    <type4:TagDescription xmi:id="1339" name="VMPP"/>
+    <type4:TagDescription xmi:id="1341" name="VVFIN"/>
+    <type4:TagDescription xmi:id="1343" name="VVIMP"/>
+    <type4:TagDescription xmi:id="1345" name="VVINF"/>
+    <type4:TagDescription xmi:id="1347" name="VVIZU"/>
+    <type4:TagDescription xmi:id="1349" name="VVPP"/>
+    <type4:TagDescription xmi:id="1351" name="XY"/>
+    <type4:TagDescription xmi:id="3579" name="B-LOC"/>
+    <type4:TagDescription xmi:id="3581" name="B-MISC"/>
+    <type4:TagDescription xmi:id="3583" name="B-ORG"/>
+    <type4:TagDescription xmi:id="3585" name="I-LOC"/>
+    <type4:TagDescription xmi:id="3587" name="I-MISC"/>
+    <type4:TagDescription xmi:id="3589" name="I-ORG"/>
+    <type4:TagDescription xmi:id="3591" name="I-PER"/>
+    <cas:View sofa="1" members="13 24 1215 245 1220 418 1225 29 41 53 65 77 89 101 113 125 137 149 161 173 185 197 209 221 233 250 262 274 286 298 310 322 334 346 358 370 382 394 406 423 435 447 459 471 483 495 507 519 531 543 555 567 579 591 603 615 627 639 651 663 675 687 699 711 723 735 747 759 771 783 795 807 819 831 843 855 867 879 891 903 915 927 939 951 963 975 987 999 1011 1023 1035 1047 1059 1071 1083 1095 1107 1119 1131 1143 1155 1167 1179 1191 1203 1230 3566 1410 1518 1434 1542 1932 2328 1980 2376 2076 2472 2178 2574 1416 1524 1440 1548 1452 1560 1674 1758 1824 2220 1872 2268 1926 2322 2148 2544 1422 1530 1464 1572 1476 1584 1488 1596 1626 1710 1644 1728 1794 2190 1836 2232 1854 2250 1902 2298 1914 2310 1944 2340 1968 2364 1998 2394 2010 2406 2028 2424 2064 2460 2100 2496 2106 2502 2124 2520 2160 2556 1428 1536 1632 1716 1692 1776 1800 2196 2136 2532 2172 2568 1446 1554 1956 2352 1992 2388 2052 2448 1458 1566 1686 1770 1470 1578 1482 1590 1500 1608 1638 1722 1662 1746 1698 1782 1818 2214 1848 2244 1860 2256 1938 2334 1950 2346 1962 2358 1974 2370 2022 2418 2034 2430 2046 2442 2058 2454 2070 2466 2118 2514 2130 2526 2142 2538 2166 2562 1494 1602 1506 1614 1806 2202 1866 2262 1512 1620 1656 1740 1704 1788 1878 2274 2040 2436 2088 2484 2184 2580 1650 1734 1668 1752 1812 2208 1890 2286 1908 2304 1920 2316 1986 2382 2004 2400 2016 2412 2082 2478 2094 2490 1680 1764 1830 2226 1842 2238 2112 2508 2154 2550 1884 2280 1896 2292 2586 2676 2591 2681 2596 2686 2601 2691 2606 2696 2611 2701 2616 2706 2621 2711 2626 2716 2631 2721 2636 2726 2641 2731 2646 2736 2651 2741 2656 2746 2661 2751 2666 2756 2671 2761 2766 2836 2771 2841 2776 2846 2781 2851 2786 2856 2791 2861 2796 2866 2801 2871 2806 2876 2811 2881 2816 2886 2821 2891 2826 2896 2831 2901 2906 3236 2911 3241 2916 3246 2921 3251 2926 3256 2931 3261 2936 3266 2941 3271 2946 3276 2951 3281 2956 3286 2961 3291 2966 3296 2971 3301 2976 3306 2981 3311 2986 3316 2991 3321 2996 3326 3001 3331 3006 3336 3011 3341 3016 3346 3021 3351 3026 3356 3031 3361 3036 3366 3041 3371 3046 3376 3051 3381 3056 3386 3061 3391 3066 3396 3071 3401 3076 3406 3081 3411 3086 3416 3091 3421 3096 3426 3101 3431 3106 3436 3111 3441 3116 3446 3121 3451 3126 3456 3131 3461 3136 3466 3141 3471 3146 3476 3151 3481 3156 3486 3161 3491 3166 3496 3171 3501 3176 3506 3181 3511 3186 3516 3191 3521 3196 3526 3201 3531 3206 3536 3211 3541 3216 3546 3221 3551 3226 3556 3231 3561 3798 3934 3951 3968 4002 4290 4297 4304 4311 4318 4325 4332 4339 4346 4353 4360 4367 4374 4381 4388 4395 4402 4409 4416 4423 4430 4437 4444 4451 4486 4493 4500 4507 4514 4521 4528 4535 4542 4549 4556 4563 4570 4577 4584 4591 4598 4605 4612 4619 4626 4633 4640 4647 4654 4661 4668 4675 4682 4689 4696 4703 4710 4717 4724 4731 4738 4745 4752 4759 4766 4773 4780 4787 4794 4801 4808 4815 4822 4829 4836 4843 4850 4857 4864 4871 4878 4885 4892 4899 4906 4913 4920 4927 4934 4941 4948 4955 4962 4969 4976 4983 4990 4997 5004 5011 5018 5025 5032 5039 5046 5053 5060 5067 5074 5081 5088 5095 5102 5109 5116 5123 5130 5137 5144 5151 5158 5165 5172 5179 5186 5193 5200 5207 5214 5221 5228 5235 5242 5249 5256 5263 5270 5277 5284 5291 5298 5305 5312 5319 5326 5333 5340 5347 5354 5361 5451 5458 5465 5472 5479 5486 5493 5500 5507 5514 5521 5550 5557 5564 5571 5578 5585 5592 5599 5606 5613 5620 5627 5634 5663 5670 5677 5684 5691 5698 5705 5712 5719 5726 5733 5740 5747 5754 5761 5768 5775 5782 5789 5796 5803 5810 5817 5824 5831 5838 5845 5883 5890 5897 5904 5911 5918 5925 5932 5939 5946 5953 5960 5988 5995 6002 6009 6016 6023 6030 6037 6044 6051 6058 6065 6072 6101 6120 6127 6134 6141 6148 6155 6162 6169 6176 6183 6190 6197 6204 6211 6218 6225 6232 6239 6246 6253 6260 6267 6274 6281 6288 6295 6302 6309 6316 6357 6364 6371 6378 6385 6392 6399 6406 6413 6420 6427 6434 6441 6448 6455 6462 6469 6476 6483 6490 6497 6504 6511 6518 6525 6532 6539 6546 6586 6593 6600 6607 6614 6621 6628 6635 6642 6649 6656 6663 6670 6677 6684 6691 6698 6705 6712 6719 6726 6733 6740 6747 6754 6761 6768 6775 6782 6823 6830 6837 6844 6851 6858 6865 6872 6879 6886 6893 6900 6907 6914 6921 6928 6935 6942 6949 6956 6963 6970 6977 6984 6991 6998 7005 7012 7052 7059 7066 7073 7080 7087 7094 7101 7108 7115 7122 7129 7136 7143 7150 7157 7164 7171 7178 7185 7192 7199 7206 7213 7220 7227 7234 7241 7248 7255 7262 7269 7276 7283 7290 7297 7304 7311 7318 7325 7332 7339 7346 7353 7360 7415 7422 7429 7436 7443 7450 7457 7464 7471 7478 7485 7492 7499 7506 7513 7520 7527 7534 7541 7548 7555 7562 7569 7576 7583 7590 7628 7635 7642 7649 7656 7663 7670 7677 7684 7691 7698 7705 7712 7719 7726 7733 7740 7747 7754 7761 7768 7775 7782 7789 7796 7803 7810 7817 7824 7831 7838 7845 7852 7859 7866 7873 7880 7887 7894 7901 7908 7915 7969 7976 7983 7990 7997 8004 8011 8018 8025 8032 8039 8046 8053 8060 8067 8074 8081 8088 8095 8102 8109 8116 8123 8130 8137 8144 8151 8158 4280 4476 5441 5540 5653 5873 5978 6091 6110 6347 6576 6813 7042 7405 7618 7959 8236 8244 8220 8228 8252 8260 8364 8316 8372 8596 8804 8612 8820 8380 8636 8388 8644 8396 8404 8500 8982 8588 8692 8716 8772 8796 8828 8604 8812 8926"/>
+</xmi:XMI>
